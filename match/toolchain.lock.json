@@ -1,0 +1,1683 @@
+{
+ "files": {
+  "disc1": {
+   "sha256": "8f769169aa5bb5789741974ffa6f98cb4c9b7ca6583cf0586f5c972361776e06",
+   "size": 202798728
+  },
+  "game/TI.EXE": {
+   "sha256": "fba675d696c356eeef8184015751719fabdc7d95ee13079f9c28b1af08d08bfb",
+   "size": 464384
+  },
+  "game/TI_unpatched.exe": {
+   "sha256": "82bfc60adc07ed708e1c0bbffb00572c2c372c1a57b434a5e0df0e899eb14619",
+   "size": 464384
+  },
+  "msvcrt40/MSVCRT40.DLL": {
+   "from": "disc1:MSDEV\\REDIST\\ANSI\\MSVCRT40.DLL",
+   "sha256": "ab55a2de2b6faf3daacd3e69473d385ceaead8033f7c79beb6bbf802f230f030",
+   "size": 326656
+  },
+  "vc42/BIN/C1.EXE": {
+   "sha256": "c5a62937d806fbd8663b05f15bd02670a43bdf983a50ee4080bcfd90a7643b90",
+   "size": 408576
+  },
+  "vc42/BIN/C2.EXE": {
+   "sha256": "674fb9e410481378c6980c3f21914e513128c85001e8337aca73b587b6273ae9",
+   "size": 549888
+  },
+  "vc42/BIN/CL.EXE": {
+   "sha256": "c5bf7ad84482e8a54d5753fcbd3e648d8a1192f5ca8b8cf1f5d23b651750585f",
+   "size": 37888
+  },
+  "vc42/BIN/CVTRES.EXE": {
+   "sha256": "7d66e9e5437b8d983432d8addedd7ea342bb814a34b1ffdebbc30018485004e8",
+   "size": 14000
+  },
+  "vc42/BIN/LINK.EXE": {
+   "sha256": "6ca5a19155e4170e8df08247769b4586fa951743f09f1d8fcec838fc4eb9750e",
+   "size": 514048
+  },
+  "vc42/BIN/MSPDB41.DLL": {
+   "sha256": "6cab17cfcbc5a6317ab030a0db99164cafdfd1f360baa36186849237ffb25858",
+   "size": 271872
+  },
+  "vc42/BIN/RC.EXE": {
+   "sha256": "a99c2a9da4744f831539dcec1f6a7219046c0295ebcff8eff46ec7b0f5b21101",
+   "size": 16432
+  },
+  "vc42/BIN/RCDLL.DLL": {
+   "sha256": "21d47edc33dccba245fa5a4c00688fe4539f160cbecff650352b5f2dcf9a14b8",
+   "size": 112560
+  },
+  "vc42/INCLUDE/ACTIVSCP.H": {
+   "sha256": "1a4e465eb23d306755e82133a6a19e14e07520074eee9b7b02cfc8801832e261",
+   "size": 43363
+  },
+  "vc42/INCLUDE/ALGORITHM": {
+   "sha256": "454d3ef9961be7967578ed378de141d5c9100c176ffe32174b1dd6d464c0a57e",
+   "size": 47951
+  },
+  "vc42/INCLUDE/ALPHAOPS.H": {
+   "sha256": "18ff284d1c6577f482d0a34e4e356aeab5ee9ece679c25290cb9796679e41483",
+   "size": 43059
+  },
+  "vc42/INCLUDE/ASSERT.H": {
+   "sha256": "f40f8068070fc36295ea45d2a642e976665fd29b08d88a407e984526e9b53eb3",
+   "size": 1469
+  },
+  "vc42/INCLUDE/ATALKWSH.H": {
+   "sha256": "53dc5ff565ae7fcb60cf38a6ea4a895dab1754e5294620ad3d93f3cf37e1bb21",
+   "size": 4608
+  },
+  "vc42/INCLUDE/BASETYPS.H": {
+   "sha256": "636dd0377ec82e37b93dc80a821dd50677095426672c23fdd41c6852a4872da6",
+   "size": 8967
+  },
+  "vc42/INCLUDE/BITSET": {
+   "sha256": "17452666d89939e039607bb8d0f06e59c918a05cd5705e84d2508fb11cd54a87",
+   "size": 7078
+  },
+  "vc42/INCLUDE/CALLCONV.INC": {
+   "sha256": "044e0712a074c7fd61e1a4ca04fac1ff860f028d289c92e320b01cc9c7690bb5",
+   "size": 7004
+  },
+  "vc42/INCLUDE/CASSERT": {
+   "sha256": "56c695a41af2060ad94c0c901db4dcbbcfbfda4dc028d5c3440105de96413f1b",
+   "size": 188
+  },
+  "vc42/INCLUDE/CCTYPE": {
+   "sha256": "7b568fed41ef6f72b3520df855f3c3a06a85dbe149a7847a9b67133fdb9c9fbf",
+   "size": 359
+  },
+  "vc42/INCLUDE/CDERR.H": {
+   "sha256": "da0d72c38f6268810b94f721845fb745979f290b2813e40796b7ea8f76fff2b0",
+   "size": 2197
+  },
+  "vc42/INCLUDE/CERRNO": {
+   "sha256": "6bed50c01a35fff4df403e50f640522ccdbc644a8f872436e5576b99e7b8a61a",
+   "size": 359
+  },
+  "vc42/INCLUDE/CFLOAT": {
+   "sha256": "a534e0bc21a7268139f8d0ec51a1122b348f589da6ad62e7fcb8b53f31161987",
+   "size": 245
+  },
+  "vc42/INCLUDE/CGUID.H": {
+   "sha256": "ec3a12037d99cfe599fd6983dae52429ba0a0bc194ab2be568ff84f85eda55ee",
+   "size": 3499
+  },
+  "vc42/INCLUDE/CISO646": {
+   "sha256": "52f20f09e7a25c28fd4bf9e53d1fe7d6770844fbf3984f2ed8456580bf60004a",
+   "size": 250
+  },
+  "vc42/INCLUDE/CLIMITS": {
+   "sha256": "61d46a2f883cc6882b9aff02b0d923e9f69f563b066df3e6d64a7b929c439946",
+   "size": 250
+  },
+  "vc42/INCLUDE/CLOCALE": {
+   "sha256": "df430fc4abacbd0199f02afd5f39effcf51ddff440f2641ad9e726a96bd3fe10",
+   "size": 365
+  },
+  "vc42/INCLUDE/CMATH": {
+   "sha256": "cf1bbc98d84078b6e7a7b3fd25700d2faec759a73f7d6486f89b9ed2df467b2d",
+   "size": 353
+  },
+  "vc42/INCLUDE/COLOR.DLG": {
+   "sha256": "baf7d9b08e05d238c53ecf2535a6aa56cf36f9053023b90f8281f4abed93043c",
+   "size": 2820
+  },
+  "vc42/INCLUDE/COLORDLG.H": {
+   "sha256": "5d64b0d0d07a71626474b4b619b14ec43bfbc5a5f44a7a07a32dea78d045b66f",
+   "size": 1434
+  },
+  "vc42/INCLUDE/COMCAT.H": {
+   "sha256": "f41367acf3e03ecc4e8ce8ad22282a018b9254a9f0af6075f022d02a213cefbc",
+   "size": 31353
+  },
+  "vc42/INCLUDE/COMCAT.IDL": {
+   "sha256": "809bb8e782066ecea07aa6591fbc284f98762cd57b8170c7ecb48c5fa0ee6ee1",
+   "size": 7800
+  },
+  "vc42/INCLUDE/COMMCTRL.H": {
+   "sha256": "55719a399bc1fa1949c390f26d1ed8a8033d6f8555a207040ce453ceb8808e06",
+   "size": 121919
+  },
+  "vc42/INCLUDE/COMMDLG.H": {
+   "sha256": "b7a108e6a73169d950e27f5e6cf66c673f52ec4b22088c8072fa3d88f962ec3d",
+   "size": 28166
+  },
+  "vc42/INCLUDE/COMPLEX": {
+   "sha256": "8e9cad5f3c8a7f7640dc195aeb3555da7b33b85b5f16493a25b149fc40970506",
+   "size": 19833
+  },
+  "vc42/INCLUDE/COMPOBJ.H": {
+   "sha256": "8a3c9cf92762eef33b5067f9868b195a6d7aa3703b2b5c5751e9bb2070bdd143",
+   "size": 437
+  },
+  "vc42/INCLUDE/CONIO.H": {
+   "sha256": "1b0daa1017fc6d3fdfc1749b7867e4a0c2289e2746994278173e4a64568241f2",
+   "size": 3183
+  },
+  "vc42/INCLUDE/CPL.H": {
+   "sha256": "64484adeec3e31f90dc94668a3c79e35b74457a55eae53ee29de47648c864c78",
+   "size": 8282
+  },
+  "vc42/INCLUDE/CPLEXT.H": {
+   "sha256": "8a28b981141ed9452faafe891adb4edc6abf11b222853d07c22f5055020faa3d",
+   "size": 2158
+  },
+  "vc42/INCLUDE/CRTDBG.H": {
+   "sha256": "d7735979a19969412b50adf8ca9e5c799e170e41fd70c90c4feacd9e64947ef1",
+   "size": 13860
+  },
+  "vc42/INCLUDE/CSETJMP": {
+   "sha256": "649eea4b482d52d180bcafa3af07c4b90e690fb21b0a2467f1860697cacf639a",
+   "size": 364
+  },
+  "vc42/INCLUDE/CSIGNAL": {
+   "sha256": "a4e3b18fa2644d31ebf2f2ddcebc6f0c5bcc26c0af6b45d6a0f60db4e6cfe8e5",
+   "size": 365
+  },
+  "vc42/INCLUDE/CSTDARG": {
+   "sha256": "5dcb65b25f6052e1092cf493b72739a63a34545c4256a91d398838953c0d9486",
+   "size": 365
+  },
+  "vc42/INCLUDE/CSTDDEF": {
+   "sha256": "e153c441cda216a63af0ea08b11f5a57a5f1b96a4726af9c0cd303a6cae20f14",
+   "size": 365
+  },
+  "vc42/INCLUDE/CSTDIO": {
+   "sha256": "6a9ab8e876a1c25a7d211f750f678dba5af2387f48126e8440460c97f3038b1c",
+   "size": 359
+  },
+  "vc42/INCLUDE/CSTDLIB": {
+   "sha256": "13d25758fec7be0633815c5eca0ea64b708839a30778c305e8fc5902649244b5",
+   "size": 364
+  },
+  "vc42/INCLUDE/CSTRING": {
+   "sha256": "1afed0b445f35093580a2a58ccf11af85574ee6208374e35de2bc0f6b044123d",
+   "size": 365
+  },
+  "vc42/INCLUDE/CTIME": {
+   "sha256": "2b5208fc5396a396efc439d74a6a48604a2f2e4c3c5a4a98b0f96659907d0f20",
+   "size": 327
+  },
+  "vc42/INCLUDE/CTL3D.H": {
+   "sha256": "dfae25124e38b73657575c104325f15caa229562b8aae285222ea048fff8ede2",
+   "size": 2673
+  },
+  "vc42/INCLUDE/CTYPE.H": {
+   "sha256": "dc5c58ef87cad14cf29b4552d3668cae2fbf98de0dbc0021a33ccfd52bdc285a",
+   "size": 12848
+  },
+  "vc42/INCLUDE/CUSTCNTL.H": {
+   "sha256": "2c87897545c78a92cdfe7479adc892ad6b989a32acb6916208e5ffff630bcd50",
+   "size": 8537
+  },
+  "vc42/INCLUDE/CUSTOMAW.H": {
+   "sha256": "27ed64aec4a219f98278246c5b59f50fad01dbb717ad9ac3723a57441d7f868d",
+   "size": 3218
+  },
+  "vc42/INCLUDE/CWCHAR": {
+   "sha256": "c2d3322d1e4e75e6d82a42498459a6352a6fb19a0169ceaa041d9c61654f0b4b",
+   "size": 359
+  },
+  "vc42/INCLUDE/CWCTYPE": {
+   "sha256": "1862b3fc2e6aa48147072f8e82e5e7e533c7e744ea49d98c08a24c4630df4834",
+   "size": 365
+  },
+  "vc42/INCLUDE/DAOGETRW.H": {
+   "sha256": "bc07dfc34f10b0e797f909f24a87bebf7ea696c414f2d4ed2b2c23e51fc31fdc",
+   "size": 3993
+  },
+  "vc42/INCLUDE/DATAPATH.H": {
+   "sha256": "d1c187f72c5e25de1cb3cd4563bb664ffc101bc1c73f8190c0d79f7a0e1989ba",
+   "size": 23543
+  },
+  "vc42/INCLUDE/DATAPATH.IDL": {
+   "sha256": "36e6a6050b5e112d858513fcfac747dae5f06608299a00080b82abd22beeea15",
+   "size": 9189
+  },
+  "vc42/INCLUDE/DATAPATH.ODL": {
+   "sha256": "2b2c920ec9aa20ac7a6c897bb6ca71096598b818929de0510a6b376c2e97febd",
+   "size": 3956
+  },
+  "vc42/INCLUDE/DBDAOERR.H": {
+   "sha256": "7fcfc17a8c2ca4efeaf205572ec8759f7b09dd20e5fe1745b30ae15e363cadba",
+   "size": 42051
+  },
+  "vc42/INCLUDE/DBDAOID.H": {
+   "sha256": "cccf3a08376fa3c296606a39ccc1762ba808e7633644f3db3a0bf8c8e978a624",
+   "size": 5071
+  },
+  "vc42/INCLUDE/DBDAOINT.H": {
+   "sha256": "28e8a4114536b1f6742187d9d7695c81f00b64c4d39f4a925ee05209ceb7c96e",
+   "size": 35337
+  },
+  "vc42/INCLUDE/DBT.H": {
+   "sha256": "c6c4aa393987bf02d85dedd3f2589764da08e31c80e1d295b38616f42070a8d3",
+   "size": 10628
+  },
+  "vc42/INCLUDE/DDE.H": {
+   "sha256": "2e7ea57da380b0f7c29214135e38de77d51f955726427db943fbf1d6fde2d23c",
+   "size": 5030
+  },
+  "vc42/INCLUDE/DDEML.H": {
+   "sha256": "62a645acbedbc09dacbe780ad2f63124f4524ee36e0cd90261e1e3fd4b2febfe",
+   "size": 17870
+  },
+  "vc42/INCLUDE/DDRAW.H": {
+   "sha256": "d8a3724958d3239015a2aa0cd4fbd54fb4b5faecdf6a0feef6155f27c7efbd1d",
+   "size": 103774
+  },
+  "vc42/INCLUDE/DEQUE": {
+   "sha256": "610ff4650941abcfb6246984e140ce027385d533fbdc3f091dc4d6e43b87f8b0",
+   "size": 15233
+  },
+  "vc42/INCLUDE/DIGITALV.H": {
+   "sha256": "56ee9d70463ced24d2fb3ee10ae02e67f72729730459d0194cb5b01116689856",
+   "size": 37704
+  },
+  "vc42/INCLUDE/DIRECT.H": {
+   "sha256": "c8af71d5225e7f965bff28275b679aa88289746ec0c9e1c63239a9d0559e06ef",
+   "size": 3595
+  },
+  "vc42/INCLUDE/DISPATCH.H": {
+   "sha256": "da36c2f335c2ced70cf6da1a15f5b22af6e60f1b70730d84d7ef2c0efdd65516",
+   "size": 439
+  },
+  "vc42/INCLUDE/DISPDIB.H": {
+   "sha256": "8fc9d10b52c7e7b8c6bb2c1ed13f4a7e5281b9e22cd6ba893945e36cffaf8416",
+   "size": 11161
+  },
+  "vc42/INCLUDE/DLCAPI.H": {
+   "sha256": "c98cae26f503b5285e465b2fd40e0fe1a6344a44d5bb5bd00e876f20dd8c1dda",
+   "size": 33975
+  },
+  "vc42/INCLUDE/DLGS.H": {
+   "sha256": "574abaa60ee96ca80c660badf12201a26d705f0aa0d2fd8461b3dfb2f3a64c44",
+   "size": 5692
+  },
+  "vc42/INCLUDE/DOCOBJ.H": {
+   "sha256": "1375faec7701a6c74351ceed1a685fd108b5de9e6b4760b89da9e42233c606de",
+   "size": 49528
+  },
+  "vc42/INCLUDE/DOCOBJ.IDL": {
+   "sha256": "cb815ffc921d3314f690f6a99c73755109c400bfb989d7d6b483e4f337744912",
+   "size": 14729
+  },
+  "vc42/INCLUDE/DOS.H": {
+   "sha256": "a18ef482de87fa0a8aacb80d678804ff3dbcb2bc7bbebc8d6a55c632e30424cc",
+   "size": 4605
+  },
+  "vc42/INCLUDE/DPLAY.H": {
+   "sha256": "521cd84acbde05b00dff61dca26a23d68cdc87bb4bc5c368b8d7d466d2bbdf21",
+   "size": 10913
+  },
+  "vc42/INCLUDE/DRIVINIT.H": {
+   "sha256": "0d2c7be7aa884cf5573c122e433e8df33b647447fa6e0b2ec9e0ddbbd7f28b2e",
+   "size": 34
+  },
+  "vc42/INCLUDE/DSOUND.H": {
+   "sha256": "02807fdef1f7f12d6d1fde26413957c01144b1dc01ebb0cc40e0cef94e0a4d63",
+   "size": 13262
+  },
+  "vc42/INCLUDE/DVOBJ.H": {
+   "sha256": "181c63fda38d8af31348e74935eafe4463891c5a20f4e23ca0449a23f4079bc5",
+   "size": 426
+  },
+  "vc42/INCLUDE/EH.H": {
+   "sha256": "622b6a5c5480a74150f9d9aa4828e7250663c7af6214e4be5abb4d4d802103ea",
+   "size": 2144
+  },
+  "vc42/INCLUDE/ERRNO.H": {
+   "sha256": "b654f21ec099184a25aacb442937f78e6a7fb001c336afcd6aa773353ad9bac8",
+   "size": 2641
+  },
+  "vc42/INCLUDE/ERROR.H": {
+   "sha256": "49bc1e34b1274edf3c43894f3b52f4dcee65ab9027768349730d8a94a6aae87d",
+   "size": 14337
+  },
+  "vc42/INCLUDE/EXCEPTION": {
+   "sha256": "e6763b77aa4368152f0c3a5f87f746357ee8e1f411f9719eed4e80fd4eeb706d",
+   "size": 1860
+  },
+  "vc42/INCLUDE/EXCHEXT.H": {
+   "sha256": "35439a25719a333ed0854f522be9a44d77cbf92a6a4e86861c0f9a6a083b99c9",
+   "size": 30413
+  },
+  "vc42/INCLUDE/EXCHFORM.H": {
+   "sha256": "ffd578bd596996bbaa6ec30439bc4b5e2c328c0839d7fa4ace1cc212392c91b2",
+   "size": 1796
+  },
+  "vc42/INCLUDE/EXCPT.H": {
+   "sha256": "40e939aadcc50b729fd49404730a675189dbd50d306d855809d32f80fec13096",
+   "size": 3960
+  },
+  "vc42/INCLUDE/EXDISP.H": {
+   "sha256": "fda2a66b7d66739ba11733d5f9c1655f2862a822086b512c9bde1fa2655a9b91",
+   "size": 17641
+  },
+  "vc42/INCLUDE/EXDISP.ODL": {
+   "sha256": "48144956dff7d4d5ef0f847946e9def193926de84a065b5596886721b6b75187",
+   "size": 23581
+  },
+  "vc42/INCLUDE/FCNTL.H": {
+   "sha256": "3d3f9e797b7f33a1ba16eccc734c96ba57c4af165f73114c1e4f4a9146346ff7",
+   "size": 2292
+  },
+  "vc42/INCLUDE/FILEOPEN.DLG": {
+   "sha256": "5507b4307e43eb88ebb178a2fa54805888d53bdfca6b3455713a3357b56d3c5d",
+   "size": 5133
+  },
+  "vc42/INCLUDE/FINDTEXT.DLG": {
+   "sha256": "b8392e762ab4cf456d2007db827b0647b00e5f1f000d4c37822c64a4f176b442",
+   "size": 3559
+  },
+  "vc42/INCLUDE/FLOAT.H": {
+   "sha256": "8a0145efe5db4a6d492654e42ad466d088dcb3402097a0873ff71a503810b630",
+   "size": 11052
+  },
+  "vc42/INCLUDE/FONT.DLG": {
+   "sha256": "1a4232b72578392bce8e170acd090b3ab022f505ab7147216b94bf8a7340b76b",
+   "size": 6888
+  },
+  "vc42/INCLUDE/FPIEEE.H": {
+   "sha256": "8fc1f99fa1d7305a24c92b57a84089b56033d2b256fb3ee2a7d85da45fefbc28",
+   "size": 5260
+  },
+  "vc42/INCLUDE/FSTREAM": {
+   "sha256": "5e7167d68740dd8253a6b694ded633f318e526201fa370344cf83df588c2000a",
+   "size": 11360
+  },
+  "vc42/INCLUDE/FSTREAM.H": {
+   "sha256": "5548839c3161703253668f622e6eb032e9f3e93bf9262af0d3a894950aeac3bf",
+   "size": 4619
+  },
+  "vc42/INCLUDE/FTSIFACE.H": {
+   "sha256": "969dcfbbc2f5b3622a6feabb8d1640e54f8176e8483db66ba4f12f58ab2be7de",
+   "size": 6568
+  },
+  "vc42/INCLUDE/FUNCTIONAL": {
+   "sha256": "7886dc0af313ddf3a943c54e16370b813979eccf731410c0d1a96e0397fc86dc",
+   "size": 9656
+  },
+  "vc42/INCLUDE/GL/GL.H": {
+   "sha256": "e7a44cafc749d4f47f774689c67dcc3444fb49ac6d232caebcc58052e4668caf",
+   "size": 68455
+  },
+  "vc42/INCLUDE/GL/GLAUX.H": {
+   "sha256": "83b4f23cc2674ed2b25b1fe3d4ead8745ea17ce144186e358680470b6bc8c25f",
+   "size": 12024
+  },
+  "vc42/INCLUDE/GL/GLU.H": {
+   "sha256": "b5e69fdf9c459d1536c4e1f5805f671636f8cea253b15dc1f7f2334dcdc95215",
+   "size": 18280
+  },
+  "vc42/INCLUDE/HLIFACE.H": {
+   "sha256": "1451cf2477aef28252ceaedba1ea6b609e212cded2441840ca9276bc7f931623",
+   "size": 1330
+  },
+  "vc42/INCLUDE/HLIFACE.IDL": {
+   "sha256": "f959817791a770fb0876e6a040553b3f1b0928f74824225577975c8de38866e7",
+   "size": 846
+  },
+  "vc42/INCLUDE/HLINK.H": {
+   "sha256": "9369170adc5d730af928422e30f3a4eaf850b2773c6f58a0468436c0186ddc06",
+   "size": 78931
+  },
+  "vc42/INCLUDE/HLINK.IDL": {
+   "sha256": "9feac0a124dd44ab8d3580a8900eaee98428010d7b4c4fc372df38fa60d6bfde",
+   "size": 37242
+  },
+  "vc42/INCLUDE/HTTPEXT.H": {
+   "sha256": "08230f13faf1959db3828707120e1530c94290fae9adb7f61a2f4fee7720a753",
+   "size": 5334
+  },
+  "vc42/INCLUDE/HTTPFILT.H": {
+   "sha256": "4dcf021ddce3210e4a3480ac7bd906099cab8176dbdebd9fd8ea7cb42619001f",
+   "size": 12458
+  },
+  "vc42/INCLUDE/IDF.H": {
+   "sha256": "1b8549b390e75454f8e09b4d64cd4ad2f877c2a6b8bf21d96269a896f0890fc2",
+   "size": 12538
+  },
+  "vc42/INCLUDE/IDISPIDS.H": {
+   "sha256": "71c864fa88de2ddec64f1b96aea7a74b546f2f1d5dd1cda71362a31ffeaec650",
+   "size": 430
+  },
+  "vc42/INCLUDE/IMAGEHLP.H": {
+   "sha256": "79b64c814b25a0213fd4f10b0d6fc724441eabca58bcb94b33e1113b0c81df99",
+   "size": 23421
+  },
+  "vc42/INCLUDE/IME.H": {
+   "sha256": "aa095046b5a1112b73b81ae7ce36122d8aa3cd0289727019043c8f0f26305dad",
+   "size": 7735
+  },
+  "vc42/INCLUDE/IMESSAGE.H": {
+   "sha256": "3f25d1f243b4e7143e14e81100c39a5071187e91c5d425fd53c0d0c615e22e05",
+   "size": 8229
+  },
+  "vc42/INCLUDE/IMM.H": {
+   "sha256": "ccd8bc0523e2decbabfc77984e569588968771eb80643d64fa1008add7bd6b7a",
+   "size": 21310
+  },
+  "vc42/INCLUDE/INETSDK.H": {
+   "sha256": "e36b9c33d1e2ca1cef3d8386a159cd1360646ec619f42d79e4051c8ee149bb9c",
+   "size": 1350
+  },
+  "vc42/INCLUDE/INETSDK.IDL": {
+   "sha256": "706d27f9c8647510a344ddc75dbd6a90b669ed053fa12f38aaa3e9e1711bdbf4",
+   "size": 832
+  },
+  "vc42/INCLUDE/INETSDK.MAK": {
+   "sha256": "8a34e075bcf382225dff0625ffce939aac5f3ead8cc8edc817b9d25f69e1ff4e",
+   "size": 20934
+  },
+  "vc42/INCLUDE/INITGUID.H": {
+   "sha256": "4008c88eaf8b849999b778e44666f848921758b32246e6e0ba935671a86a7b16",
+   "size": 1442
+  },
+  "vc42/INCLUDE/INITOID.H": {
+   "sha256": "18cfaa4737a88d7a4395c6e88dc700280cdae96f5f1312d0ba84c09d0520f62e",
+   "size": 1467
+  },
+  "vc42/INCLUDE/INTSHCUT.H": {
+   "sha256": "d3caae01809721e514a5e0ea9729c82498b26f13fab1686c38c9fcf4ddec8579",
+   "size": 15672
+  },
+  "vc42/INCLUDE/IO.H": {
+   "sha256": "57a249eff9a7a17ffcf17dc166fe96823bc51c865fdcc0d10c7dac36b18ad28d",
+   "size": 7986
+  },
+  "vc42/INCLUDE/IOMANIP": {
+   "sha256": "952c48a37dac79e42173c539b68a44113ce95d65080fee7a959701bcc946cb81",
+   "size": 1956
+  },
+  "vc42/INCLUDE/IOMANIP.H": {
+   "sha256": "2d9cbf91185d46dc55ad340b811b07f435859435d809fd227e90fd3c3d91b156",
+   "size": 4420
+  },
+  "vc42/INCLUDE/IOS": {
+   "sha256": "a84c6372b9b6393b982abd57b8c77e731e113151b03912649abf436c6b2ee1d5",
+   "size": 4276
+  },
+  "vc42/INCLUDE/IOS.H": {
+   "sha256": "882c668993ca3a8783e95e73a6bdd8fda57bed8aaf11a77099723127fdf60c11",
+   "size": 9101
+  },
+  "vc42/INCLUDE/IOSFWD": {
+   "sha256": "102368d846841b97eb212dbceea54819b13b46eab9070f19c37e97dd9c8d644f",
+   "size": 7680
+  },
+  "vc42/INCLUDE/IOSTREAM": {
+   "sha256": "555acb6536e16d0aa93f9ed8595583f4b5bb6554515afca011d16a7f04811fca",
+   "size": 804
+  },
+  "vc42/INCLUDE/IOSTREAM.H": {
+   "sha256": "df24db53e642b9e2d9ffb2d88609c2a48ca82d8bb2fb5836e59200ac4937098f",
+   "size": 2373
+  },
+  "vc42/INCLUDE/ISGUIDS.H": {
+   "sha256": "b22f7b4b7b835ce14e88766aef42825d89958f7cbfaa6706414c2b2a72920bba",
+   "size": 453
+  },
+  "vc42/INCLUDE/ISO646.H": {
+   "sha256": "e1b90de971d1449dc458500c5e18c0928eb43c64454270897717b8130aa0a7e6",
+   "size": 419
+  },
+  "vc42/INCLUDE/ISTREAM": {
+   "sha256": "0f1bb35e53df07ff30fb80602e916eba93baa57992f6e835ecc65fac52e36c77",
+   "size": 14752
+  },
+  "vc42/INCLUDE/ISTREAM.H": {
+   "sha256": "c08b1faece7a06306b047ed93bf9ee0de717e1a8a4f9fe9392af28716418fa49",
+   "size": 6626
+  },
+  "vc42/INCLUDE/ITERATOR": {
+   "sha256": "712a2e55d6082d465a5b5dd071edb4202330c1fcb22cfcbddda9d806401bd7fa",
+   "size": 7729
+  },
+  "vc42/INCLUDE/LARGEINT.H": {
+   "sha256": "3972d7ba09d2da646864367ddd2876e478515c9bf126b0dc10025130e54891bb",
+   "size": 5279
+  },
+  "vc42/INCLUDE/LIMITS": {
+   "sha256": "8274170e8f605e0c71993c3bea08a7932f83ee109c309d124d6a46513f53bc15",
+   "size": 12138
+  },
+  "vc42/INCLUDE/LIMITS.H": {
+   "sha256": "3fd90b01a47ac5626c1aaeca6f2c74f35884ae7bf925e794a0a80cefac2fe9f1",
+   "size": 4133
+  },
+  "vc42/INCLUDE/LIST": {
+   "sha256": "f89b603799c429935951810fb032ec8724f03e3697e9ab4f78f5e97c08fcfe57",
+   "size": 12606
+  },
+  "vc42/INCLUDE/LISTING.INC": {
+   "sha256": "418ac5c56584f355256bbe754626d0f3568ba7ba82131c47bb11194ca669b15f",
+   "size": 1034
+  },
+  "vc42/INCLUDE/LM.H": {
+   "sha256": "cbe1d0a0a56696855f32082c30ca02034c0e04032f69cd6270448e8f5d83e888",
+   "size": 1284
+  },
+  "vc42/INCLUDE/LMACCESS.H": {
+   "sha256": "70d7d6ae6ffe48af263025dbf985f3eba61e7e49366365e4bd238f8c7bbae717",
+   "size": 40757
+  },
+  "vc42/INCLUDE/LMALERT.H": {
+   "sha256": "5c9bbded912cfca468f362ee5c8fed4dee87fe993203a38ba35100eebf082166",
+   "size": 3738
+  },
+  "vc42/INCLUDE/LMAPIBUF.H": {
+   "sha256": "ca903051f98c3ce5a50eb8291a27ecfa776a13d61d1587a0da4f2e540c9410d9",
+   "size": 1321
+  },
+  "vc42/INCLUDE/LMAT.H": {
+   "sha256": "e6e2990ab76fc206c778dd404f4238f53bb06913a321c5531cfcbab9ca2f2652",
+   "size": 3577
+  },
+  "vc42/INCLUDE/LMAUDIT.H": {
+   "sha256": "121016f8ea5bc85d3389bad0385d167bb01461ac4c84e7a0c80e2e07c2cd373a",
+   "size": 10910
+  },
+  "vc42/INCLUDE/LMBROWSR.H": {
+   "sha256": "f3ded1394ed85e0ac031a672d3843535337784f25555116a8c500762121a4fce",
+   "size": 5969
+  },
+  "vc42/INCLUDE/LMCHDEV.H": {
+   "sha256": "93e0df9651e42226ee2e7b175ad04193661204088134ef3c156b85a178fad7d4",
+   "size": 5439
+  },
+  "vc42/INCLUDE/LMCONFIG.H": {
+   "sha256": "65877d1b262d4fbacc28c3ea1398917f0cf3f5d14eafecbaa54ad5764cb17ee4",
+   "size": 1698
+  },
+  "vc42/INCLUDE/LMCONS.H": {
+   "sha256": "923713e3ec51e5299d20aa3f1e4e09f5d99f0ae7bc599f5582f65e959137f025",
+   "size": 7239
+  },
+  "vc42/INCLUDE/LMERR.H": {
+   "sha256": "3a315b175d49b8156a6a0c6d0974737328a61161ec970a59885a1edc57110fab",
+   "size": 36056
+  },
+  "vc42/INCLUDE/LMERRLOG.H": {
+   "sha256": "897048fe6bac805a2bffe068a97b5da87c3d96124e19d92c23b72c097594a6cc",
+   "size": 38298
+  },
+  "vc42/INCLUDE/LMMSG.H": {
+   "sha256": "a7efc68f47c9943708433e1f15c078406c409e239fc7c809c6a0ab55207dea76",
+   "size": 2125
+  },
+  "vc42/INCLUDE/LMREMUTL.H": {
+   "sha256": "3f455e341bf2733ccc26bf95daf338fed9601c68605f1253b08d1ddcf31d6728",
+   "size": 2921
+  },
+  "vc42/INCLUDE/LMREPL.H": {
+   "sha256": "a8ae7deeed5c501f39624146818cfd9a31c67d90b25879f732255621ac5415d7",
+   "size": 6726
+  },
+  "vc42/INCLUDE/LMSERVER.H": {
+   "sha256": "1574dd276b1c294a61ea7f30847060cfa1db4b49ccd660814d3e531b4ec07d37",
+   "size": 47741
+  },
+  "vc42/INCLUDE/LMSHARE.H": {
+   "sha256": "88d9c61074e0c2cfbeabb80f5fbdec5518f2deb80a40028a5d242d82c5372adf",
+   "size": 10411
+  },
+  "vc42/INCLUDE/LMSNAME.H": {
+   "sha256": "050bf8e368afe2727adaf59ab76718f8aecbcfbc1e19dfb68dc45f50b84ed959",
+   "size": 3065
+  },
+  "vc42/INCLUDE/LMSTATS.H": {
+   "sha256": "4465700522e10915e89d13b4206ed571ce473a69f4625fa05887195cfb9688ff",
+   "size": 5134
+  },
+  "vc42/INCLUDE/LMSVC.H": {
+   "sha256": "2539ce4ade3269deeaacfb957cc6bacb2787f8372a817119a277e5a173c68e3a",
+   "size": 13334
+  },
+  "vc42/INCLUDE/LMUSE.H": {
+   "sha256": "8d119dbcd6a3cd75cb35bd039d027b24cc87190ed652f03e6ad84cc0d1759a3b",
+   "size": 3641
+  },
+  "vc42/INCLUDE/LMUSEFLG.H": {
+   "sha256": "ea49d78a242d33cd5617c1e57789e482e8080c21155179631ad1d209bb15ddd4",
+   "size": 676
+  },
+  "vc42/INCLUDE/LMWKSTA.H": {
+   "sha256": "9c095b97e4f77f724e7652c968d1117a0404c2e4df379047a79d85757c630778",
+   "size": 16742
+  },
+  "vc42/INCLUDE/LOADPERF.H": {
+   "sha256": "a61ab28ff95073a8e23fdfb9e08622f074fc79c49ee4ece4e878661358297a2c",
+   "size": 1407
+  },
+  "vc42/INCLUDE/LOCALE": {
+   "sha256": "a3dae784fb9a4429c3612af4344b82065f987e6fb27d582380cd6a893f0a8d8b",
+   "size": 6649
+  },
+  "vc42/INCLUDE/LOCALE.H": {
+   "sha256": "34d507d38645460e2063d4bc6035ab2a1504b07b9485832a3678cb1be8423612",
+   "size": 3308
+  },
+  "vc42/INCLUDE/LSAPI.H": {
+   "sha256": "5364042c421e94653bffb003833a70398a5df91914bdeeb404ea3da432bfcd36",
+   "size": 11551
+  },
+  "vc42/INCLUDE/LZEXPAND.H": {
+   "sha256": "a425be116f26a76708161a4ce687ab3cd3d4aa60efae9cb818f5498a60b9c452",
+   "size": 1679
+  },
+  "vc42/INCLUDE/MALLOC.H": {
+   "sha256": "b37616c5b88dfb3af1809fde2422a40d824b9c494cfb4134fc48ebbd9148e12b",
+   "size": 4429
+  },
+  "vc42/INCLUDE/MAP": {
+   "sha256": "3a3bb2d4b3030aa74998ccce78b3973416950df4f4f679961e0569d9ce831c99",
+   "size": 9943
+  },
+  "vc42/INCLUDE/MAPI.H": {
+   "sha256": "d6f33a2165294f2c107f927aefc13aa6f513efef35d94f76088e96f77e314df5",
+   "size": 11857
+  },
+  "vc42/INCLUDE/MAPICODE.H": {
+   "sha256": "25ae02ef56360267bda70779e86695879919b16655b969fd4adae9e00fd818ab",
+   "size": 10528
+  },
+  "vc42/INCLUDE/MAPIDBG.H": {
+   "sha256": "dce70699a3a4741190a0ef59a5f085b690ccb244f054eab0a16e0aafe07b6bb6",
+   "size": 24876
+  },
+  "vc42/INCLUDE/MAPIDEFS.H": {
+   "sha256": "bb2832fd8eff1f1d709e5cd051307c4e8bf5069547e738cd825d7ab7edd04b7a",
+   "size": 103616
+  },
+  "vc42/INCLUDE/MAPIFORM.H": {
+   "sha256": "b1f7f2748a2bfc952dcf8473cd91e46f97892e23e7eccb2ece41b18d26cb4ea7",
+   "size": 28081
+  },
+  "vc42/INCLUDE/MAPIGUID.H": {
+   "sha256": "d7f37c13e868e2c723cdd3e21d8dac3969372a808794760e71b072e36f6b1049",
+   "size": 11650
+  },
+  "vc42/INCLUDE/MAPIHOOK.H": {
+   "sha256": "546cb7d65852bf337cba9e7f2ea03d080d7487f3e0b02f86ba8e16b6e48e1cb7",
+   "size": 2649
+  },
+  "vc42/INCLUDE/MAPINLS.H": {
+   "sha256": "3f2213b6085b92722b931915485e5eb13186e8237c56e18a0f1bad5a96219272",
+   "size": 6893
+  },
+  "vc42/INCLUDE/MAPIOID.H": {
+   "sha256": "012bb89218b775bb98ed529717cbd5d22e03641428aee4eb72f38f20fe468452",
+   "size": 2759
+  },
+  "vc42/INCLUDE/MAPISPI.H": {
+   "sha256": "9d51047132eedfa622e2380a23685f8e7ae3c84106233a55c9781e87a8521064",
+   "size": 47359
+  },
+  "vc42/INCLUDE/MAPITAGS.H": {
+   "sha256": "f32d56a993062bd4d0e757ddcef912a130d2256b0375cab6fe243bc3640d1527",
+   "size": 68440
+  },
+  "vc42/INCLUDE/MAPIUTIL.H": {
+   "sha256": "2d4eb2432bd8ce11b6633c293d85e72287acb966ffedeb9f8286cd0f0b49ecf7",
+   "size": 30573
+  },
+  "vc42/INCLUDE/MAPIVAL.H": {
+   "sha256": "268af0f1a3eabd58aff0c708a1c027f4b190e4659be3c3411cbc78e6ae0857ae",
+   "size": 90055
+  },
+  "vc42/INCLUDE/MAPIVB.BAS": {
+   "sha256": "11150c20c572af7fdf8aa937bc7a1fc73a01a1067ac6e86d70fce7eaea27d22f",
+   "size": 10479
+  },
+  "vc42/INCLUDE/MAPIWIN.H": {
+   "sha256": "5d057090d3e2aebe27e3ba05d8088bc277ac2411e9e1f1c38375a4f7ff203968",
+   "size": 15665
+  },
+  "vc42/INCLUDE/MAPIWZ.H": {
+   "sha256": "d60bf962f725a8ccf3405bbd2c67789791530d0c7957a85a878f0cde04963c46",
+   "size": 1977
+  },
+  "vc42/INCLUDE/MAPIX.H": {
+   "sha256": "52c41c8310f920b17665fc38aa907440a82b48d232e0028b9125facb60c44b19",
+   "size": 28494
+  },
+  "vc42/INCLUDE/MATH.H": {
+   "sha256": "566bc1861878cb2c4a07657e0de87e0aa7ebce396dfc2cf8f8d7a0b047fa3ca9",
+   "size": 19907
+  },
+  "vc42/INCLUDE/MBCTYPE.H": {
+   "sha256": "551e3353fc20f933a8dae08328721aa712d514d996ae5edf3c672861616176a8",
+   "size": 4712
+  },
+  "vc42/INCLUDE/MBSTRING.H": {
+   "sha256": "e920251a0fb754312cb979b6a866011f8610ba5e4f6c372b62096258da71ff40",
+   "size": 7570
+  },
+  "vc42/INCLUDE/MCIAVI.H": {
+   "sha256": "e2965e419358e6e957032aa289f240a903b7626da979542b3bed095b1675db72",
+   "size": 2984
+  },
+  "vc42/INCLUDE/MCX.H": {
+   "sha256": "1bf35f711ee4a2f2efdc8883042b91964c5067675d14175784750545f1a9d870",
+   "size": 3930
+  },
+  "vc42/INCLUDE/MEMORY": {
+   "sha256": "94b3a8428df771ffac9bdd6a3001606d22170292bb7964070a469392d7812ba8",
+   "size": 5564
+  },
+  "vc42/INCLUDE/MEMORY.H": {
+   "sha256": "b24e38ef773dc743f0aa762c1eb1cfbc65ff4d3e2d895430c5865319355afa25",
+   "size": 2660
+  },
+  "vc42/INCLUDE/MGMTAPI.H": {
+   "sha256": "84157d398d7b556e147d538dca8df6f345e1fb6ab9f5097cd72d35b821d88580",
+   "size": 5279
+  },
+  "vc42/INCLUDE/MIDLES.H": {
+   "sha256": "b9d228bea879c85c83d3d1868e716409626dec70c64f33b0627f509d43181537",
+   "size": 5962
+  },
+  "vc42/INCLUDE/MINMAX.H": {
+   "sha256": "8666c1560eb9953186bb8745fc56c36460904a6215b2bc1714919b266041bd89",
+   "size": 451
+  },
+  "vc42/INCLUDE/MMREG.H": {
+   "sha256": "2de4651d74db78b4d1c7c74bba3843a363a5a8775c97c7a220a51d00e2357889",
+   "size": 69422
+  },
+  "vc42/INCLUDE/MMSYSTEM.H": {
+   "sha256": "a04b3704c735aad7c454cb85450317ee3b18e4be764c2ed8de693b7ec8371026",
+   "size": 154496
+  },
+  "vc42/INCLUDE/MONIKER.H": {
+   "sha256": "9f7f7872917878c45ec1fd92d93af35c076d942397feed95e2e83914c80cd709",
+   "size": 437
+  },
+  "vc42/INCLUDE/MSACM.H": {
+   "sha256": "68ba6a181879230626b54572ad852ad17683d4032a66b3de261376c80f74b69e",
+   "size": 58508
+  },
+  "vc42/INCLUDE/MSACMDLG.DLG": {
+   "sha256": "f35b9615bb9bf0497f6d16f219bbc3d7495fe76e645eb3bb46fdd86b6f143383",
+   "size": 2902
+  },
+  "vc42/INCLUDE/MSACMDLG.H": {
+   "sha256": "ffa7d9a05bf09f98c952a9554e83fde2d38576d5479643d402f1b6402981513e",
+   "size": 1029
+  },
+  "vc42/INCLUDE/MSCONF.H": {
+   "sha256": "8e8773dddd2eb7f1d790a770ad0679728dd7cc528bd7f4557da1eebc91e0357d",
+   "size": 9231
+  },
+  "vc42/INCLUDE/MSFS.H": {
+   "sha256": "c3cf6da4a4dee5675c33e5d04163f1e5b4b1efa617bd0bfb2a806a6c19774b84",
+   "size": 16926
+  },
+  "vc42/INCLUDE/MSOC95.H": {
+   "sha256": "338a4dcfbf1897307ec6507a68c3a26fd4bc6ca344592e3e0565de7044a506f6",
+   "size": 20294
+  },
+  "vc42/INCLUDE/MSPAB.H": {
+   "sha256": "2b92cfdd4354ef2061673d477c5f591653ddb70afd55b14b513b5d202fc78805",
+   "size": 2143
+  },
+  "vc42/INCLUDE/MSPST.H": {
+   "sha256": "1a91b0e4d95acb4dbabadb21b84806606c8d83ea668b84378da2e74bad57e6f0",
+   "size": 4977
+  },
+  "vc42/INCLUDE/MSVIDDRV.H": {
+   "sha256": "c3e4971b21d7ac4dae8d46b81bd63f738fc2a8170bd8e943c74e7596cb304fb3",
+   "size": 4674
+  },
+  "vc42/INCLUDE/MSWSOCK.H": {
+   "sha256": "32b87f0c50366f6d642c7df7fbb9f806aaf0cc0d4b2561113a30e574ae6e0d27",
+   "size": 2815
+  },
+  "vc42/INCLUDE/NB30.H": {
+   "sha256": "ea9df4be61e7a50a2aae841d5da8344d45692c5a39bb0b327858509fb762fe72",
+   "size": 12693
+  },
+  "vc42/INCLUDE/NDDEAPI.H": {
+   "sha256": "fc1c98a2ca54b1795163da5c1fbd99e64e0312ed8de29b4399cb00bbd27a34b4",
+   "size": 14642
+  },
+  "vc42/INCLUDE/NDDESEC.H": {
+   "sha256": "5535af67cbd8278e1eadddae8b866e4e188f1d726520a4d29d186c76d4e65e8e",
+   "size": 3146
+  },
+  "vc42/INCLUDE/NEW": {
+   "sha256": "c1983d7593babc4b99e1a128e02c8a78b1c8d04279aecaa5b9c84ad66cc42ca5",
+   "size": 1542
+  },
+  "vc42/INCLUDE/NEW.H": {
+   "sha256": "8525ba1bae209c08be4aacf913b224bc444cca4913e5ae5a0a7692e52aec1c98",
+   "size": 2250
+  },
+  "vc42/INCLUDE/NSPAPI.H": {
+   "sha256": "abc060211d17276d1757d360056ab51c82dfff0d4d56abc3e42218f28230aad6",
+   "size": 19000
+  },
+  "vc42/INCLUDE/NTSDEXTS.H": {
+   "sha256": "e7cbd509585c316dbf55c5a803090cb6084d5b0b16ae4a50ede82cb037d89566",
+   "size": 1502
+  },
+  "vc42/INCLUDE/NTWIN32.MAK": {
+   "sha256": "755a060653d2ba2775384bad070ab25840517555132a76b4fa838fc1ffa6a518",
+   "size": 26
+  },
+  "vc42/INCLUDE/NUMERIC": {
+   "sha256": "67a40e7dc8c9b69a1c3b38c9c5781ff3b1569a795293d062b3aa743e027cfaa1",
+   "size": 3880
+  },
+  "vc42/INCLUDE/OAIDL.H": {
+   "sha256": "bbef2041f446e5e17a5b9b433e17afca0404b4fca062ddd4b1076ca40093ed74",
+   "size": 195458
+  },
+  "vc42/INCLUDE/OAIDL.IDL": {
+   "sha256": "c44bfe64b25dd1919fa00824647835d31855cb875adf415c413ca36e44cb18cc",
+   "size": 44086
+  },
+  "vc42/INCLUDE/OBJBASE.H": {
+   "sha256": "96f69c424ea927a0d3650b9c22227a0f4204b983afaf9780c2d59689663c8541",
+   "size": 29459
+  },
+  "vc42/INCLUDE/OBJERROR.H": {
+   "sha256": "c8464d24b8fee4fbbe229d3a3247e6d5943f062df9bfbb2001166cbd1d92bf2e",
+   "size": 303
+  },
+  "vc42/INCLUDE/OBJIDL.H": {
+   "sha256": "0cab2cb83a09807bd992d25c1001001ac799b6cdd016facaf67550295309349c",
+   "size": 346914
+  },
+  "vc42/INCLUDE/OBJIDL.IDL": {
+   "sha256": "2dc05e02140e4f321592d7519c8e5d5e4703c20aecc060f9bc7e5d265ea41fb5",
+   "size": 63151
+  },
+  "vc42/INCLUDE/OBJSAFE.H": {
+   "sha256": "7a3fa759af4afc0d7f96576d3c46a64053356ac1d5e5c1b9da3b0a2538372306",
+   "size": 6355
+  },
+  "vc42/INCLUDE/OCIDL.H": {
+   "sha256": "eb3526afae03eea7302f8015b8c3b2eedcfb8da61232d0fff1440fb483a27647",
+   "size": 243611
+  },
+  "vc42/INCLUDE/OCX96.IDL": {
+   "sha256": "241fb8d0eacf7341bd44c071eeb3f3ed24f3152e76154d1a3b99aae127615ca5",
+   "size": 10825
+  },
+  "vc42/INCLUDE/ODBCINST.H": {
+   "sha256": "89f03f7187f03e31d19b2c283f7c50b117738c4d45bd7cdaa60682b9d50f9d65",
+   "size": 6111
+  },
+  "vc42/INCLUDE/OLE.H": {
+   "sha256": "a3a8c2c7fe2913fa103b09c6ede7b31dec9443c15e4662ddd2db617c75986071",
+   "size": 25650
+  },
+  "vc42/INCLUDE/OLE2.H": {
+   "sha256": "3f091b34d454e59cc4ec97d50c37a15b4d703b450cdade6db662c4001376c370",
+   "size": 12684
+  },
+  "vc42/INCLUDE/OLE2VER.H": {
+   "sha256": "dea2798e6947e486711ab6554201b90e2f7a3a9772652aa24f9f89f4839bbf0c",
+   "size": 664
+  },
+  "vc42/INCLUDE/OLEAUTO.H": {
+   "sha256": "7576ffc8a54ed67945bbbf84c37cc7a69986d45cc4bec8a2a8b0bb62dabcc935",
+   "size": 33147
+  },
+  "vc42/INCLUDE/OLECTL.H": {
+   "sha256": "58eaa474bb33fc78405153db26b48684e7151b996b3c64f6ecba8346cc8ed1d5",
+   "size": 16931
+  },
+  "vc42/INCLUDE/OLECTL.IDL": {
+   "sha256": "8ff1ef611f2588a8278cdc7145d174efec0875e107903aa3812a78df8f22762e",
+   "size": 2467
+  },
+  "vc42/INCLUDE/OLECTLID.H": {
+   "sha256": "5542d7b139cb9f095df120a16362052e8667f679214f702efec8a6acd1c31e94",
+   "size": 6732
+  },
+  "vc42/INCLUDE/OLEDLG.H": {
+   "sha256": "03b4a59e7b9c22410d03552efde4dc0609cd0d393798c0ab50a9d61cc838a6d6",
+   "size": 74489
+  },
+  "vc42/INCLUDE/OLEDLGS.H": {
+   "sha256": "0d73b8a94e8bc5915b50b35892706e32dd8eb277ecb3cee11a68da75b128b261",
+   "size": 6574
+  },
+  "vc42/INCLUDE/OLEIDL.H": {
+   "sha256": "4b82305202990a22931bd0acda6a5a7ed2a693eab0fc3b94bee22344ddd3d96f",
+   "size": 158879
+  },
+  "vc42/INCLUDE/OLEIDL.IDL": {
+   "sha256": "fc170b2793b8c62d4a015f68cb1baa1f7254b1e7a89f71df755188fdfdcda882",
+   "size": 27158
+  },
+  "vc42/INCLUDE/OLENLS.H": {
+   "sha256": "b7bd56a2f34fba2ebdc263d9610c0d43738c6a8e28eb3aa201a0b6dcb2b2f792",
+   "size": 22637
+  },
+  "vc42/INCLUDE/OLESCRPT.H": {
+   "sha256": "78132720d29ee3a5810191940286291532e767e5386e7d924b35ae0cb7d0a169",
+   "size": 9335
+  },
+  "vc42/INCLUDE/OSTREAM": {
+   "sha256": "80c0daf296316e362f0daff64802056177e187872c6d516a38e4f8a6295399a1",
+   "size": 10385
+  },
+  "vc42/INCLUDE/OSTREAM.H": {
+   "sha256": "d006c694913a89a9be48ea92fa089193a956170d6b23e63b4b0eb318f35a0e4b",
+   "size": 4908
+  },
+  "vc42/INCLUDE/PBT.H": {
+   "sha256": "222e4771dffe4addf6b61dc17b4baabccef0c9d505bff8e08aa8df62ebb7a92c",
+   "size": 1409
+  },
+  "vc42/INCLUDE/PCRT32.H": {
+   "sha256": "d4aedad6b0c15941ef4da63fc5afa3620beb1068dc5b9526c007f2d625fd6143",
+   "size": 1534
+  },
+  "vc42/INCLUDE/PENWIN.H": {
+   "sha256": "945b963f8a45990d1a8e88b7e9be52b7922e189df5fe3a309c8dabd9ca1124a7",
+   "size": 106402
+  },
+  "vc42/INCLUDE/PLAN32.H": {
+   "sha256": "57bd6aac86d4c777a356e881188f6b7bcf3d43059495f28bfa6b062cc90f321f",
+   "size": 915
+  },
+  "vc42/INCLUDE/POPPACK.H": {
+   "sha256": "2285f7d4b158ae700dd5c2840fea412613238e7b90384ef8853bd5350e417e67",
+   "size": 1023
+  },
+  "vc42/INCLUDE/PRNSETUP.DLG": {
+   "sha256": "96eeb1af055196c15dfdfe6243788af5061d3d38b25f1cc08645954ce1459ce5",
+   "size": 5851
+  },
+  "vc42/INCLUDE/PROCESS.H": {
+   "sha256": "55cd4c42ab0d4caee5cea6465c5bd3b06d88c6d79590a064cd098780d47c5465",
+   "size": 9450
+  },
+  "vc42/INCLUDE/PRSHT.H": {
+   "sha256": "0abadd22c85e71357431ef51528f16b6c5a7d6774da885d2dc83323b83d86321",
+   "size": 12511
+  },
+  "vc42/INCLUDE/PSHPACK1.H": {
+   "sha256": "28725bcd47f82df5b75ee8e8057cbbb9818386533f12ad538d8fbe0c1bc00953",
+   "size": 911
+  },
+  "vc42/INCLUDE/PSHPACK2.H": {
+   "sha256": "e9bab3bee620c8af1adf83c49eb75910bb3cdd2a049123a13e6a60f5296ee921",
+   "size": 911
+  },
+  "vc42/INCLUDE/PSHPACK4.H": {
+   "sha256": "6298da538b77d55add91eeca1c2e011d633b598effc298350e55d17247d2c5a5",
+   "size": 880
+  },
+  "vc42/INCLUDE/PSHPACK8.H": {
+   "sha256": "52d62aa2959c87054194387de0e84f223fa88e8b4092e28f312f7e636dfc8658",
+   "size": 911
+  },
+  "vc42/INCLUDE/QUEUE": {
+   "sha256": "b1dcc8f3e7a50922592f8c820d957a7d8297d37021ea292a2127f7fd3547b68b",
+   "size": 3051
+  },
+  "vc42/INCLUDE/RAS.H": {
+   "sha256": "d483202c5b6fe6050fa9fc04dc1d311002a300733d0eb57d34f0de9dfb81786c",
+   "size": 32287
+  },
+  "vc42/INCLUDE/RASDLG.H": {
+   "sha256": "0a58fb116e580a046db7877dffa4c42f6370314e963b2c9d1a369a4afc8ec8b7",
+   "size": 6524
+  },
+  "vc42/INCLUDE/RASERROR.H": {
+   "sha256": "e31bc6bc8f2db0a0d8c7100feaf7b3c5da7bfcd55e7054318a19b42affcbbc48",
+   "size": 18142
+  },
+  "vc42/INCLUDE/RASSAPI.H": {
+   "sha256": "bd67e1717b0daac8ceb0913c645eb1219af3e3509ad16df7140d53772d582fe3",
+   "size": 9877
+  },
+  "vc42/INCLUDE/RASSHOST.H": {
+   "sha256": "5b86724c383ac47d7ab30d52cf90e956e114a9bd96891ff526c0890fb12472c4",
+   "size": 4641
+  },
+  "vc42/INCLUDE/RECGUIDS.H": {
+   "sha256": "f70f555481edb76dc04dc1325d9a41dbbfa4ecaae7e27fd91d15643ce3a75697",
+   "size": 567
+  },
+  "vc42/INCLUDE/RECONCIL.H": {
+   "sha256": "c29a546aa23dfcf31c2ed5d49b7630cab2df12c692233c8bfb23cc00f95df6d9",
+   "size": 5560
+  },
+  "vc42/INCLUDE/REGSTR.H": {
+   "sha256": "bd38d9702e9fb0bec7424d42d93016787a45263a67756c6cd6cb522f6aaadfa0",
+   "size": 52748
+  },
+  "vc42/INCLUDE/RICHEDIT.H": {
+   "sha256": "bdc9bf92a5ab060ba38cb084f6454a5d776381e7a31cb381860fbb67881175ab",
+   "size": 26424
+  },
+  "vc42/INCLUDE/RICHOLE.H": {
+   "sha256": "091443305d977dec5f08e984819144e07d52d986fa88359db7defab03a9d5c2f",
+   "size": 6473
+  },
+  "vc42/INCLUDE/RPC.H": {
+   "sha256": "3d7e3afb3600d79164e3a63d7192ac70750e40d1cda11b8759d46e27a7cf03b4",
+   "size": 1983
+  },
+  "vc42/INCLUDE/RPCBASE.H": {
+   "sha256": "871f11c6ee46cf38a59153a23edd71b9355937d7e483f6d8b4a766ff6dedc9aa",
+   "size": 557
+  },
+  "vc42/INCLUDE/RPCDCE.H": {
+   "sha256": "8e187938be83def71b6b8ee841f20b60d48f5b7a4bc0b50dded722dbab57bbb2",
+   "size": 36693
+  },
+  "vc42/INCLUDE/RPCDCEP.H": {
+   "sha256": "4cf9cc0c058f89f02f6f5df498fa8a255c737e42ff9d5d7d644f8924b41d2c56",
+   "size": 9477
+  },
+  "vc42/INCLUDE/RPCNDR.H": {
+   "sha256": "0f51c4e4276bb342fae365465c5bc7dabb46833ef1150b6e7241318960de8bda",
+   "size": 71789
+  },
+  "vc42/INCLUDE/RPCNSI.H": {
+   "sha256": "b9fb67d0f6b53dd16a262ded2d5099ef07465c9db8450b9ebfdc6d4a5ea4a8bf",
+   "size": 14654
+  },
+  "vc42/INCLUDE/RPCNSIP.H": {
+   "sha256": "389e9ab616c887452ad891a7efea363a9f15c4bfe37b56c7ffa791bc83455972",
+   "size": 1176
+  },
+  "vc42/INCLUDE/RPCNTERR.H": {
+   "sha256": "380678ead8758442cc7ad69e99c8b0fb887af547a7e522ee89afa28390cabdfa",
+   "size": 1569
+  },
+  "vc42/INCLUDE/RPCPROXY.H": {
+   "sha256": "5cfb39b50975acf4bae47529340982e9b4829c5efc1d09173d9025dba86d02a8",
+   "size": 16712
+  },
+  "vc42/INCLUDE/SCODE.H": {
+   "sha256": "f6b25dfb95836e618f27b6a5f620d089a467140931e6f1faa09a538412f0cb97",
+   "size": 216
+  },
+  "vc42/INCLUDE/SCRNSAVE.H": {
+   "sha256": "0b79bfdcccecf54b126615aae1b203960af64539fa31415bacca4ebf1587fd7a",
+   "size": 8624
+  },
+  "vc42/INCLUDE/SEARCH.H": {
+   "sha256": "590be1bf3cda48292592af4c7c4b484e2e831100a1a1627b03afe72b960d9396",
+   "size": 2559
+  },
+  "vc42/INCLUDE/SEHMAP.H": {
+   "sha256": "24f90e904d7343c1fc97a23273c9fcf43fea7ad9d836dc93d866e7ac1e9b446f",
+   "size": 557
+  },
+  "vc42/INCLUDE/SERVPROV.H": {
+   "sha256": "f1000886b02a8e481dedc2fdd77ca472fe23bbbbc9dcf63694240cf505fe9477",
+   "size": 4755
+  },
+  "vc42/INCLUDE/SERVPROV.IDL": {
+   "sha256": "44da0906f5c5193c9c600c3c54d285606cebb959e877befc5f3eff0eecbc7b6b",
+   "size": 1697
+  },
+  "vc42/INCLUDE/SET": {
+   "sha256": "d91af10e13927816e0d9b10c8734e9db52cc9250c985563d9c6e4367290cd1cf",
+   "size": 7924
+  },
+  "vc42/INCLUDE/SETJMP.H": {
+   "sha256": "6d5ede3611aaf40f52fb29227845310c7b253b0a73361607a0f8cc0e09e99497",
+   "size": 8034
+  },
+  "vc42/INCLUDE/SETJMPEX.H": {
+   "sha256": "f95a0dde1c76e60e8bfb973076da47f8d76c4e19b10f6462501cc8edecc1d4eb",
+   "size": 823
+  },
+  "vc42/INCLUDE/SHARE.H": {
+   "sha256": "7dd0faa4381333e30c2fd95c3204ffe8584e3c449e45da401286c50b82cd2fc1",
+   "size": 828
+  },
+  "vc42/INCLUDE/SHDISPID.H": {
+   "sha256": "d20c9fabfe43fd2427d0369ce997d74118cfc78863d5116212b039ccfb87ac2a",
+   "size": 961
+  },
+  "vc42/INCLUDE/SHDOCVW.H": {
+   "sha256": "d2919d17dd3df3ff31b61f4fc11efc5a029b3cb21714c6738bfcfe2d04029a14",
+   "size": 15747
+  },
+  "vc42/INCLUDE/SHDOCVW.ODL": {
+   "sha256": "fd0aca4871d5796b7523b4ea609f9adbd7068e4d026d9d4eb8a393a0f68c9ff8",
+   "size": 21083
+  },
+  "vc42/INCLUDE/SHELLAPI.H": {
+   "sha256": "494520fe788d0538cb27158d2dad7f6a5366852ad86f840643a8dc702f146e31",
+   "size": 16824
+  },
+  "vc42/INCLUDE/SHLGUID.H": {
+   "sha256": "1b6aa79b053f2432921efbea5c2389f1547f05d09a1ebd12bbb21a19ebd795a0",
+   "size": 3163
+  },
+  "vc42/INCLUDE/SHLOBJ.H": {
+   "sha256": "5e91b7399c5f9a0560f2eac763211bdb950a2e40f1c0cade538445a97a7ca931",
+   "size": 93336
+  },
+  "vc42/INCLUDE/SIGNAL.H": {
+   "sha256": "5b3c710dc47f619fbb1146919befee4be0787e0c5645e33b496ed16cb4f52f27",
+   "size": 2833
+  },
+  "vc42/INCLUDE/SMPAB.H": {
+   "sha256": "13f375367e06cc838c0b2fbf6900200758ff808acb3cb4bd5a53f96291af61fc",
+   "size": 1233
+  },
+  "vc42/INCLUDE/SMPMS.H": {
+   "sha256": "5c39c3d1b5a70186a44c6ecd5018ffad0d9a31ce5c4c96dd55439480f197f945",
+   "size": 1892
+  },
+  "vc42/INCLUDE/SMPXP.H": {
+   "sha256": "7fe3cc323bdd9189cb88d001787eb3c1f3d2582206b217e61a7e5f66e8197dfe",
+   "size": 3778
+  },
+  "vc42/INCLUDE/SNMP.H": {
+   "sha256": "661782c18a1fbc29a9bbfd4335236e62769f2eeda9df1da8f4dbf8eed026f53b",
+   "size": 17166
+  },
+  "vc42/INCLUDE/SQL.H": {
+   "sha256": "504800e2770bac7163df2649ad473fa89cef77107a81fbb52b310c0ce2d04273",
+   "size": 48012
+  },
+  "vc42/INCLUDE/SQLEXT.H": {
+   "sha256": "4f1edd348140f9a48425f501aa10e0eb8651028a2906d0f9dfc4cbf0e91e3446",
+   "size": 9635
+  },
+  "vc42/INCLUDE/SQLTYPES.H": {
+   "sha256": "d1267b55cc03c56451118a54975cd764ef78df98866a4188762e9d2c8b1326ee",
+   "size": 3641
+  },
+  "vc42/INCLUDE/SSTREAM": {
+   "sha256": "14180be92c7ea308e5ba7ea8b2b2aafa7bdb7ed90f35a795bf1bf6f8e3b4a2ff",
+   "size": 9098
+  },
+  "vc42/INCLUDE/STACK": {
+   "sha256": "efccd546b8dd6c66bcc2d28ccec453e287252c4e92a30bb60b6a005895b7131b",
+   "size": 1923
+  },
+  "vc42/INCLUDE/STDARG.H": {
+   "sha256": "53540f910521ae80dad455a607fd96e0a6102ccb60307d790a66f6033e6a4e7d",
+   "size": 4730
+  },
+  "vc42/INCLUDE/STDDEF.H": {
+   "sha256": "f3a4d3f7bd77f47e1c3958539a958a499df3eda8b32416544962b8ec62151bce",
+   "size": 2458
+  },
+  "vc42/INCLUDE/STDEXCEPT": {
+   "sha256": "b43456e3b290558784ea5efabeec36c3990a9f752f1f30324db9ab12a769604a",
+   "size": 2970
+  },
+  "vc42/INCLUDE/STDEXCPT.H": {
+   "sha256": "70827ceee03a96a7e5555bc4b146b2e57a37b9850a57d123a1c47c0052e45041",
+   "size": 1935
+  },
+  "vc42/INCLUDE/STDIO.H": {
+   "sha256": "53f3025c95bf31f671313239f7ce6f9b640293933233fc71c319f3629abed60d",
+   "size": 13315
+  },
+  "vc42/INCLUDE/STDIOSTR.H": {
+   "sha256": "d46be6fc511c17bfb4fe2ee62e7537bd1dc912382b8dfa6a62a42c5d7b2d7730",
+   "size": 2082
+  },
+  "vc42/INCLUDE/STDLIB.H": {
+   "sha256": "244f374b1051a8c12dae87bc4b6eb64b96f1d435ccd8eb5d7742ebbd00089625",
+   "size": 19148
+  },
+  "vc42/INCLUDE/STORAGE.H": {
+   "sha256": "0c65d3f7bf60d12efb9b096e0d223768cab8dd15f1c6adca2c2f306b1b9a7afa",
+   "size": 437
+  },
+  "vc42/INCLUDE/STREAMB.H": {
+   "sha256": "975820f392aa778bcbcc3d982c01ba94fd38c84c6d6e9b1304dd2a960552727c",
+   "size": 5419
+  },
+  "vc42/INCLUDE/STREAMBUF": {
+   "sha256": "0c796314e546948d32cf94a3157b448644466161d2457bde38d960d5a499f348",
+   "size": 6087
+  },
+  "vc42/INCLUDE/STRING": {
+   "sha256": "4cb4c5aaa17d84c7fa03b2462427db3853415603e90d00d2c55d518ea9f915ac",
+   "size": 6113
+  },
+  "vc42/INCLUDE/STRING.H": {
+   "sha256": "95a5c5eab27c280cefeb51cddf4ee9442515faac69accd2ff3761ae1d628cbae",
+   "size": 9170
+  },
+  "vc42/INCLUDE/STRSTREA.H": {
+   "sha256": "ef9fa55f6e99a3653effc9f2733e6fc6d247a4efa1aa63aa6fb5bbe29f186bd5",
+   "size": 3074
+  },
+  "vc42/INCLUDE/STRSTREAM": {
+   "sha256": "9f1a853e1d595bd16bdd1254bbbd454187df58a2fb807e7aff34609958c2c4c5",
+   "size": 3813
+  },
+  "vc42/INCLUDE/SVCGUID.H": {
+   "sha256": "8f009ead6eb0659e1c4e61d684a3d6b1323b9712b969c26493b07928336f78bf",
+   "size": 15330
+  },
+  "vc42/INCLUDE/SVRAPI.H": {
+   "sha256": "b85019859e74c1b676e38a53fd5064d5e27db896b39df30f04ce122c51646030",
+   "size": 47005
+  },
+  "vc42/INCLUDE/SYS/LOCKING.H": {
+   "sha256": "bf1cf974328b6ab8723edccf6f9514460e7e0f4a095211240c7e3fa0d21d3300",
+   "size": 1012
+  },
+  "vc42/INCLUDE/SYS/STAT.H": {
+   "sha256": "1e471056c13f3f00dbd851d4d611650a5f4cb225a0b2b98bbe2d30e8dec018e9",
+   "size": 4310
+  },
+  "vc42/INCLUDE/SYS/TIMEB.H": {
+   "sha256": "aa25fd101554af1ed90e936a28c9d04edf1325d77338e9887601acc2d7d29ecf",
+   "size": 2580
+  },
+  "vc42/INCLUDE/SYS/TYPES.H": {
+   "sha256": "5783fa026e545247a66dea1667e63b8816ddde310e7bb4c1614dcac3ea3ccb3d",
+   "size": 1625
+  },
+  "vc42/INCLUDE/SYS/UTIME.H": {
+   "sha256": "c3005e78d3e1cc46c723ebf93b2c108b887431d0adb4d5b6ca401f9622f81a5b",
+   "size": 3048
+  },
+  "vc42/INCLUDE/TAPI.H": {
+   "sha256": "682108e76cf7f19e14e3b3b939da5d36913453c1b3bb884d32dc7edcdb01811a",
+   "size": 137069
+  },
+  "vc42/INCLUDE/TCHAR.H": {
+   "sha256": "2caff0343f51dbb004348e670c85af2d2c85819791ac91a7155f3e181eb8f289",
+   "size": 27828
+  },
+  "vc42/INCLUDE/TIME.H": {
+   "sha256": "f4b4ee5b0cad655df5f2fab3609236a7ac4596d57a45e4a5c91f77aeeccb0eef",
+   "size": 7494
+  },
+  "vc42/INCLUDE/TLHELP32.H": {
+   "sha256": "a58b73b903256daa19607d823513f4091c8006bbf38a836411cd08d3d36204c0",
+   "size": 6068
+  },
+  "vc42/INCLUDE/TNEF.H": {
+   "sha256": "e8f396815d6c9df830342fc758e5a398046521364236005568a9c744cef7889c",
+   "size": 14111
+  },
+  "vc42/INCLUDE/TSPI.H": {
+   "sha256": "22b9b8cef44a4ee743394713b162486e8232bb7b9bceb2fc883fe2528f30507c",
+   "size": 41899
+  },
+  "vc42/INCLUDE/TYPEINFO": {
+   "sha256": "9c6dc2a493f9fe981477de420c141a65cd0b815ea36b59db819cd83c6fb29b1f",
+   "size": 2650
+  },
+  "vc42/INCLUDE/TYPEINFO.H": {
+   "sha256": "597ac3294260569024744a47a44ad8926711a409f3420acda36258604e9e4a5c",
+   "size": 2074
+  },
+  "vc42/INCLUDE/UNKNWN.H": {
+   "sha256": "fc4a80e64c8d3b82de4ea5ca40959d0faa072b6675dcc9efbbc6948ee127bcd0",
+   "size": 8521
+  },
+  "vc42/INCLUDE/UNKNWN.IDL": {
+   "sha256": "b23b8a71f10ca7641e5f400c438da126de43b8f1737aa90e57272af50e462ae8",
+   "size": 1901
+  },
+  "vc42/INCLUDE/URLCACHE.H": {
+   "sha256": "4879d48693f53b71f521ab9ef17f84294e108408d7df11acb395a676f6f9e695",
+   "size": 12402
+  },
+  "vc42/INCLUDE/URLHLINK.H": {
+   "sha256": "b7aa5c13f999d915820b0a1761caa8dfebe5bf6130124589124d627bed4bedf7",
+   "size": 4383
+  },
+  "vc42/INCLUDE/URLMON.H": {
+   "sha256": "a4d1b2e36d5e50bee589d126dc835a7353b1e99c9ef4734b53ff00f735217e2c",
+   "size": 64160
+  },
+  "vc42/INCLUDE/URLMON.IDL": {
+   "sha256": "c33621686c5c3fc7431a402d2b0da53f84346ae27558838efda1ccf4693a0778",
+   "size": 25508
+  },
+  "vc42/INCLUDE/USEOLDIO.H": {
+   "sha256": "7572bef3f7c996d067fec4197bed0169e5b7a9c81eaa1b7c1cd3b7bb9d623fbf",
+   "size": 1023
+  },
+  "vc42/INCLUDE/USE_ANSI.H": {
+   "sha256": "9f2a84e75600cdc7f3012d118560bb93456dfaee50f411670bc5de6cc6a5e699",
+   "size": 581
+  },
+  "vc42/INCLUDE/UTILITY": {
+   "sha256": "ef1462dd954f95a7c80be645888f849a0786d0af5ba3f2219c44b56de6f29f9f",
+   "size": 9536
+  },
+  "vc42/INCLUDE/VALARRAY": {
+   "sha256": "84250f88f44bef70d90743610096776e16c45a7270c738c54e87dd14bc825ef3",
+   "size": 31741
+  },
+  "vc42/INCLUDE/VARARGS.H": {
+   "sha256": "d0b89f2c884791c327ec2362748c759bf151c17381788c408e112e7c0576ff6f",
+   "size": 4675
+  },
+  "vc42/INCLUDE/VARIANT.H": {
+   "sha256": "87c584e37473f2677e1e694403de9e09bd3b11ae32db392e4aa9453944fa32a5",
+   "size": 437
+  },
+  "vc42/INCLUDE/VCR.H": {
+   "sha256": "91f0fdfeb1062fccc495b50586e59da6e136e35ec16079a7f0acce010e92688b",
+   "size": 20052
+  },
+  "vc42/INCLUDE/VDMDBG.H": {
+   "sha256": "a3048cbcaa26e32ae542a73aae59356e9fa2eb85af00932a027ff4e8e47f225c",
+   "size": 13476
+  },
+  "vc42/INCLUDE/VECTOR": {
+   "sha256": "ccbf158f328cf78da128363ea2b9e8ad382943c3cac417f3385f4fbf1ce642ed",
+   "size": 17593
+  },
+  "vc42/INCLUDE/VER.H": {
+   "sha256": "9d2defe156d1bbaca2f93fd28a10d54ce9ca371da5bd74bd444b2408b49d4283",
+   "size": 113
+  },
+  "vc42/INCLUDE/VFW.H": {
+   "sha256": "3a9999bab702ae908fc08b7a16b11f84519ef967375329ab3854ed2e45cd3592",
+   "size": 139519
+  },
+  "vc42/INCLUDE/W32CHICO.MK": {
+   "sha256": "755a060653d2ba2775384bad070ab25840517555132a76b4fa838fc1ffa6a518",
+   "size": 26
+  },
+  "vc42/INCLUDE/WCHAR.H": {
+   "sha256": "a8050296baa9d028619352e6b5e47374aa1a95d4fe9ee17b8cbbec68ebc91262",
+   "size": 24476
+  },
+  "vc42/INCLUDE/WCTYPE.H": {
+   "sha256": "ddf39e4bf06f769eb2d359c9d1687663aebe63e77444d9d584474186aa3df6bc",
+   "size": 6974
+  },
+  "vc42/INCLUDE/WDBGEXTS.H": {
+   "sha256": "15abc0f22ba3e151c8aabe497364ada293b0af065a8acd55affb499f28abf4f6",
+   "size": 13287
+  },
+  "vc42/INCLUDE/WFEXT.H": {
+   "sha256": "b23c57923bf3ab01e9e9961eecec682defe1d6c12702b829c6be8b6f21df2646",
+   "size": 6531
+  },
+  "vc42/INCLUDE/WIN32.MAK": {
+   "sha256": "96917238f0dce94176246ae975c59c6820e75299cc6228fa9ee1de1f494ebdb1",
+   "size": 15013
+  },
+  "vc42/INCLUDE/WINBASE.H": {
+   "sha256": "18e281f2f50ddea4d4ec8f0e550eedd8785e7edbdf5a34b7b3a2a10bdbf9857c",
+   "size": 152446
+  },
+  "vc42/INCLUDE/WINCON.H": {
+   "sha256": "e5f81f33185cade977c962bb25f46255dc71a51352a1cde230025f2cfdb3af8f",
+   "size": 14592
+  },
+  "vc42/INCLUDE/WINCRYPT.H": {
+   "sha256": "1fd39ccf489434165f40ed5e4ed4b3ae82de6754c5df9679442f632c082e1ab6",
+   "size": 12615
+  },
+  "vc42/INCLUDE/WINDEF.H": {
+   "sha256": "04585484893b992cacdebba8a91c30430f09cf7c40784296ad9e40cf7f530b5b",
+   "size": 7146
+  },
+  "vc42/INCLUDE/WINDOWS.H": {
+   "sha256": "57990b96f8593f5837bb195d166b5e791cd131900075adcb24b59b7547417481",
+   "size": 4806
+  },
+  "vc42/INCLUDE/WINDOWSX.H": {
+   "sha256": "c911b49f04c920ec6c46e11c1a3d3435772357fe3bf5d4ee94120cfd96546719",
+   "size": 71875
+  },
+  "vc42/INCLUDE/WINDOWSX.H16": {
+   "sha256": "b85228c01045fec93cdd1cf71dc2ab9da3601e37579ab2866b1e977990f51dc5",
+   "size": 68578
+  },
+  "vc42/INCLUDE/WINERROR.H": {
+   "sha256": "97ed365ca78b4134dc2a767507419293da772b9d076e53c6f97a51e851a6022a",
+   "size": 198267
+  },
+  "vc42/INCLUDE/WINGDI.H": {
+   "sha256": "3b1374451e6bcc63c9dc824df9733cb52b148a0b5d83f3f2555e643d0d96b9cb",
+   "size": 147365
+  },
+  "vc42/INCLUDE/WININET.H": {
+   "sha256": "8fc2b963c2589e5bba886539b0c189be72a1ce3f4fd703f85399f118169c7d58",
+   "size": 74233
+  },
+  "vc42/INCLUDE/WINIOCTL.H": {
+   "sha256": "cb7d43975d87c6951d2d8a195e6474d862cb816a416aa333be91e8b9c8b6f289",
+   "size": 28535
+  },
+  "vc42/INCLUDE/WINNETWK.H": {
+   "sha256": "4d3df51ae5e0c4b5386cc499891a49495474744e7e398da710c87a6b3159b4de",
+   "size": 22695
+  },
+  "vc42/INCLUDE/WINNLS.H": {
+   "sha256": "da9dbf011f697518638d2d8fe6f234cf8900a1d6a481a47069e516cd190f8157",
+   "size": 39325
+  },
+  "vc42/INCLUDE/WINNLS32.H": {
+   "sha256": "377593aebad9aca865db717c8ee1192fea24da135c3a0e5227237ff2a24663aa",
+   "size": 3002
+  },
+  "vc42/INCLUDE/WINNT.H": {
+   "sha256": "03f47814d13839201b551a2819cb54a417bf0cd01e66438a2285d42a795f3aa5",
+   "size": 179577
+  },
+  "vc42/INCLUDE/WINPERF.H": {
+   "sha256": "2f025dfd84ec1ccb14cb2aa93a9c7b6f352a68a7a77426cfe25680c24cc7d72d",
+   "size": 28283
+  },
+  "vc42/INCLUDE/WINREG.H": {
+   "sha256": "0737d6be515977cf2e3574e9071b8f2f1d6e7bd835db538ab91d5ee4ca758f1d",
+   "size": 14324
+  },
+  "vc42/INCLUDE/WINRES.H": {
+   "sha256": "f2bc17a93c7846c2ce9c304a692399dc75b1f22eab95950fe897826379845534",
+   "size": 19492
+  },
+  "vc42/INCLUDE/WINSOCK.H": {
+   "sha256": "4f74706eb39d851b15bfb2d05b473e9ec1f3ca331ac917e686081ad0d2fbbb11",
+   "size": 33611
+  },
+  "vc42/INCLUDE/WINSOCK2.H": {
+   "sha256": "9ee9fa1839d8f107a365dce653e903990c3947e516b56b806d48e9ced488614d",
+   "size": 95748
+  },
+  "vc42/INCLUDE/WINSPOOL.H": {
+   "sha256": "a9b9d6cbecdbda66893e23f403268fad9a45c41f5272623afb09873cb5c0e455",
+   "size": 51513
+  },
+  "vc42/INCLUDE/WINSVC.H": {
+   "sha256": "fef31bda20de40b9f769317ede721d0f3b897ebce4d9c1617d04c6617bd7fd42",
+   "size": 19076
+  },
+  "vc42/INCLUDE/WINUSER.H": {
+   "sha256": "843ab0805afc4f8517ac3663cf1aed90795fa6217a9e3f3f1c94d8cc900c270c",
+   "size": 189481
+  },
+  "vc42/INCLUDE/WINVER.H": {
+   "sha256": "3300c37a50556184b9350efed0340bd745543c90e5b4eb732b545c0e5ffbd9ab",
+   "size": 9504
+  },
+  "vc42/INCLUDE/WINWLX.H": {
+   "sha256": "4375eed586648aa0dc58c9fcdb5473720561567feafbbe72f3f42b0d1cb674ef",
+   "size": 21983
+  },
+  "vc42/INCLUDE/WOWNT16.H": {
+   "sha256": "a4a052456661e4b746623e4b253c754374817baf457d8fefa422d7e253512436",
+   "size": 4374
+  },
+  "vc42/INCLUDE/WOWNT32.H": {
+   "sha256": "7b3077a7da4144abd73494311d85f34d46ecd483d2e14afd6619693891143cb7",
+   "size": 9744
+  },
+  "vc42/INCLUDE/WPAPI.H": {
+   "sha256": "7a4e7d5cd34c75ee36281cd5a8d2edaabe88af468b5c8c5e184a7dc30ba48254",
+   "size": 2587
+  },
+  "vc42/INCLUDE/WPGUID.H": {
+   "sha256": "80f526b718788c8d8577749388475b364d9b16f3ea090b1bb319613e4035b2ab",
+   "size": 800
+  },
+  "vc42/INCLUDE/WPOBJ.H": {
+   "sha256": "b277f62d2cc79262704368f676a7c7b6e8a92d420968d985b2966bbf19a6c980",
+   "size": 1713
+  },
+  "vc42/INCLUDE/WPSPI.H": {
+   "sha256": "8a9255930cadb0c2f82ac32af6fcc490358fc16162183dc6b4425cf9880dead7",
+   "size": 8365
+  },
+  "vc42/INCLUDE/WS2SPI.H": {
+   "sha256": "b5a7f2c22b282cc3b3b8b40491290dd4efe75e7f803301307afb2198041043f0",
+   "size": 17490
+  },
+  "vc42/INCLUDE/WSHISOTP.H": {
+   "sha256": "091451d8f53b479c9c20362fa9d5f4e65e71e1ba5838ac41e8ee2b1cafc21413",
+   "size": 3356
+  },
+  "vc42/INCLUDE/WSIPX.H": {
+   "sha256": "cd58cccb535f59d71163333363d6d651909d5d451fc9f2b770beb763b5a6906b",
+   "size": 1943
+  },
+  "vc42/INCLUDE/WSNETBS.H": {
+   "sha256": "c2fc34f4099ae38705ccf9a794ea2f00c5ee0878f19e4b230a9efea573d9d41b",
+   "size": 2257
+  },
+  "vc42/INCLUDE/WSNWLINK.H": {
+   "sha256": "0a45c7f85ae930937997a55eb7d5aaf58b2aca07354a2268f1364d1f765685dc",
+   "size": 9317
+  },
+  "vc42/INCLUDE/WSVNS.H": {
+   "sha256": "91f5460cfe00002d66ebcce560aac8f7f4e81ff5bc25fda8bf2424a8940b4d9f",
+   "size": 1250
+  },
+  "vc42/INCLUDE/WSVV.H": {
+   "sha256": "140bf06777704cb69870e01dced50cb48028f73af24410cd47bc25430a2e9db4",
+   "size": 1590
+  },
+  "vc42/INCLUDE/WTYPES.H": {
+   "sha256": "fe9be66df495b3f07c3f9daaa076b9f809a48b946e2daa2ba43af431ca60887b",
+   "size": 28449
+  },
+  "vc42/INCLUDE/WTYPES.IDL": {
+   "sha256": "97b6984cf7e702178e48522b5dadfa03d506b7f817d1847477db0a065a3b89b1",
+   "size": 35047
+  },
+  "vc42/INCLUDE/XCMC.H": {
+   "sha256": "9068beb3876fa065846839b1dd1a08db487aed683fad3d8155f323eb4268fc20",
+   "size": 14014
+  },
+  "vc42/INCLUDE/XCMCEXT.H": {
+   "sha256": "0a9da3e37be391fbe14301431db99459e3289fa17a4570033722f7b43e4d1897",
+   "size": 2726
+  },
+  "vc42/INCLUDE/XCMCMSX2.H": {
+   "sha256": "93dbfddc6366d3ac27c5844e2879e4b01fb85e2968805232e10552fafe768561",
+   "size": 1039
+  },
+  "vc42/INCLUDE/XCMCMSXT.H": {
+   "sha256": "f17ef835605487ac886678352e08a8c99b238c2ed1b123d58c825d8a7f3a2cf3",
+   "size": 1816
+  },
+  "vc42/INCLUDE/XIOSBASE": {
+   "sha256": "1e104f415147266754d97321de6a7bd20f57c8add1b64c633a1584f030d2ae08",
+   "size": 4809
+  },
+  "vc42/INCLUDE/XLOCALE": {
+   "sha256": "59962270c72940d93dff1f8e13abc81ca87f604a1faf8ecd7601bcb86b3b283f",
+   "size": 18607
+  },
+  "vc42/INCLUDE/XLOCINFO": {
+   "sha256": "e70a9a7fd8f00f62a80562db4b8533bdcd448b7ba842f888e655beda728666f5",
+   "size": 3037
+  },
+  "vc42/INCLUDE/XLOCINFO.H": {
+   "sha256": "e9b0403f5a91e513e63335a011ac1952d8121107ed850317b7f4ad38eaef64ec",
+   "size": 2814
+  },
+  "vc42/INCLUDE/XLOCMON": {
+   "sha256": "c32a5a585a17bb0d5c77356d98f17ddea2b6305ce66b964b22b2519776abf32b",
+   "size": 13842
+  },
+  "vc42/INCLUDE/XLOCNUM": {
+   "sha256": "3fd89197872fbfcc1b9a710081a89c7d5ee307df4e4dabe233911a05d283f533",
+   "size": 18195
+  },
+  "vc42/INCLUDE/XLOCTIME": {
+   "sha256": "06dfe41a3d88d653e3b408f2efbac5354b85d01863d348c49d70fbddffc28529",
+   "size": 7558
+  },
+  "vc42/INCLUDE/XMEMORY": {
+   "sha256": "5b1a15ef695a0b1c68c4de6e83ef7f9e934d1e4c102984c883d336fa6cbbff81",
+   "size": 3491
+  },
+  "vc42/INCLUDE/XSTDDEF": {
+   "sha256": "dc2f01236f0f5bf89a34f173d20fb1a315be868e93df836a8f3b50a556b6c1a9",
+   "size": 1161
+  },
+  "vc42/INCLUDE/XSTRING": {
+   "sha256": "4161383a16e970756498bb1ada7b36a369dd5df78dfc9de6ad4048e337eb9f37",
+   "size": 19226
+  },
+  "vc42/INCLUDE/XTREE": {
+   "sha256": "5e63d22dccbf7999d33a938466f9e7da3384269d468f8a278b0b4c132f5f99e4",
+   "size": 17969
+  },
+  "vc42/INCLUDE/XUTILITY": {
+   "sha256": "983e6bf25d563bac9d910b33b5cc227b560ebb16bac931f97a2d11b233e93fbe",
+   "size": 4429
+  },
+  "vc42/INCLUDE/YMATH.H": {
+   "sha256": "5d25a6a6672a95afa8553129112f1875ccd73d30d8701cec15da72878848716a",
+   "size": 1426
+  },
+  "vc42/INCLUDE/YVALS.H": {
+   "sha256": "79bc8d62af89cb83c544175b6f7e31a8aad934e4792fea0cbfb1fea0d73a059f",
+   "size": 2211
+  },
+  "vc42/LIB/COMDLG32.LIB": {
+   "sha256": "ec78469e3edeefdf518492155304e15c5c1ccae2a952ab595e594aea60406d83",
+   "size": 23494
+  },
+  "vc42/LIB/GDI32.LIB": {
+   "sha256": "02966ee097addef16fbfdd60f3fac2277f7e33c458758b8efdb08d5637eb8537",
+   "size": 307520
+  },
+  "vc42/LIB/KERNEL32.LIB": {
+   "sha256": "f7cf5e6d9df7e63a463012a10877e4da43cb6f8638b1d31e143d06d029e24008",
+   "size": 630924
+  },
+  "vc42/LIB/LIBCMT.LIB": {
+   "sha256": "1b42eb48c0824798e2585573069f85c9c0b08df45db62ff2cc7a7aa5dd1b5ba2",
+   "size": 929942
+  },
+  "vc42/LIB/OLDNAMES.LIB": {
+   "sha256": "2593c14f0b284df06d588bbfbd43d92b77d2ffb82708c026913108e1da0dbf9c",
+   "size": 61232
+  },
+  "vc42/LIB/USER32.LIB": {
+   "sha256": "d0366de9d861f7ec42aa6e4b1d8b0fa5a5fd1e052b0ea168ec0e31dc2ec22e86",
+   "size": 514116
+  },
+  "vc42/LIB/WINMM.LIB": {
+   "sha256": "47bb8685071da3a2b87c215fb9eb6f88d974363cad73832a4705a87556befbd5",
+   "size": 183086
+  }
+ },
+ "roots": {
+  "disc1": "D:\\detaoot\\Visual C++ 4.2\\en_vc42ent_disc1.exe",
+  "game": "D:\\detaoot\\Titanic Adventure Out of Time",
+  "vc42": "D:\\detaoot\\Visual C++ 4.2\\MSDEV"
+ },
+ "written": "2026-10-06T19:34:51"
+}

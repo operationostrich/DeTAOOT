@@ -1,0 +1,48 @@
+# The link order of TI.EXE, and the ONE place it is written down.
+#
+# The linker lays functions and variables out in the order it is handed the objects, so
+# this order is the exe's: do not sort it, do not reorder it, and add a new file at the
+# position its code had. File names and folders reach no byte of the exe; only this order
+# does. (The original's own file names are unknown -- no build keeps them -- so the
+# names here describe the contents. The unit list is the original's partition of the
+# program into translation units, recovered from the Macintosh and March 1997 link
+# orders and from where the .data/.bss blocks of each unit sit.)
+#
+# Each line: the address of the unit's first function in TI.EXE, then its path under src/.
+# `data` lines are not game code: the data files, compiled with the same
+# prelude and linked at the place the original's data sat.
+
+0x00401000  sound/wave_mixer.c
+0x004058a0  script/script_block_parser.c
+0x00406620  sound/wave_device_scene_cmds.c
+0x0040a290  scene/waypoint_paths.c
+0x0040aec0  platform/network.c
+0x0040bb60  script/debugger.c
+0x0040d9a0  anim/cast_actors.c
+0x00411e00  graphics/sprite_hotspot_raster.c
+0x00413830  game/save_props_shops.c
+0x00419980  platform/display_ui.c
+data        data/keyword_tables.c      # TI.EXE has the keyword tables' strings straight after display_ui.c's data
+0x004212a0  script/keywords_strings.c
+0x00422080  scene/attach_slots.c
+0x00422310  memory/container_store.c
+0x004241e0  sound/sound_channels.c
+0x00425400  script/script_dispatch.c
+0x004291a0  scene/scene_channel_scripts.c
+0x0042b7d0  graphics/hotspot_blit.c
+0x00431640  anim/channel_messages.c
+0x00431ef0  platform/winmain_nav.c
+0x004325b0  memory/heap_resources.c
+0x00434cf0  graphics/clut_rects_resources.c
+0x00437490  graphics/render_nodes.c
+0x00438a10  anim/messages_channel.c
+0x00439320  game/trigger_overlay_actions.c
+0x0043ea00  anim/puppet_transitions.c
+0x00441c00  script/page_node_codec.c
+0x004420c0  script/script_bindings.c
+0x00444ca0  scene/stage.c
+0x00447240  script/interpreter.c
+0x004486a0  graphics/movie_player.c
+0x0044c410  sound/track_sound_cmds.c
+0x0044dc70  memory/property_heap.c
+data        data/globals.c             # the packed regions and anything no unit owns, after the last unit

@@ -1,0 +1,49 @@
+{
+ "waypoint_paths.c": {
+  "ReverseWaypointPathDirection": {
+   "count": 6
+  }
+ },
+ "movie_player.c": {
+  "MovieWipeRandomBlocksStep": {
+   "count": 22,
+   "before": "w"
+  }
+ },
+ "trigger_overlay_actions.c": {
+  "ProjectSetPointToScreen": {
+   "count": 4,
+   "before": "y2"
+  }
+ },
+ "wave_mixer.c": {
+  "InitWaveHeaders": {
+   "count": 2,
+   "before": "i"
+  }
+ },
+ "attach_slots.c": {
+  "ResolveDisplayAttachSlot": {
+   "count": 2,
+   "before": "p"
+  },
+  "ActivateDisplayAttachSlot": {
+   "count": 2,
+   "before": "p"
+  }
+ },
+ "puppet_transitions.c": {
+  "ActionCmd_PuppetBevel": {
+   "count": 2,
+   "before": "u"
+  },
+  "ScriptCmd_PuppetEvent": {
+   "count": 2,
+   "before": "st"
+  },
+  "ActionCmd_PuppetScramble": {
+   "count": 2,
+   "before": "k"
+  }
+ }
+}

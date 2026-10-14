@@ -1,0 +1,9 @@
+# Build output
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Where this machine keeps the toolchain and the reference exes (match/config.py)
+match/paths.json

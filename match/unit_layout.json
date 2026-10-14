@@ -1,0 +1,170 @@
+{
+ "wave_mixer.c": {
+  "hdr": {
+   "winuser": 16
+  },
+  "pre": 12,
+  "shift": {
+   "DAT_00460a90": 12,
+   "DAT_0048a148": 4
+  }
+ },
+ "script_block_parser.c": {
+  "hdr": {
+   "winuser": 16
+  },
+  "pre": 12,
+  "shift": {
+   "DAT_00460a90": 12,
+   "DAT_0048a148": 4
+  }
+ },
+ "wave_device_scene_cmds.c": {
+  "hdr": {
+   "winuser": 1
+  },
+  "ishift": {
+   "sndPlaySoundA": 18,
+   "waveOutUnprepareHeader": 22
+  },
+  "mid": 14,
+  "pre": 2,
+  "shift": {
+   "DAT_00460cc0": 2,
+   "DAT_00460cc8": 2
+  }
+ },
+ "debugger.c": {
+  "pre": 1,
+  "shift": {
+   "DAT_00460dcc": 14
+  }
+ },
+ "cast_actors.c": {
+  "pre": 1,
+  "shift": {
+   "DAT_00460dcc": 14
+  }
+ },
+ "sprite_hotspot_raster.c": {
+  "pre": 2
+ },
+ "save_props_shops.c": {
+  "pre": 2
+ },
+ "display_ui.c": {
+  "hdr": {
+   "mmsystem": 20,
+   "winuser": 19
+  },
+  "ishift": {
+   "GetStockObject": 14,
+   "SetProcessWorkingSetSize": 2,
+   "sndPlaySoundA": 4,
+   "SetWindowLongA": 5,
+   "ShowWindow": 25
+  },
+  "pre": 12,
+  "shift": {
+   "DAT_0045b6ec": 1,
+   "DAT_00487538": 13,
+   "DAT_004883c4": 12,
+   "DAT_0048836c": 13,
+   "DAT_0045b728": 12
+  }
+ },
+ "container_store.c": {
+  "hdr": {
+   "winuser": 1
+  },
+  "pre": 15
+ },
+ "script_dispatch.c": {
+  "hdr": {
+   "winuser": 13
+  },
+  "shift": {
+   "DAT_0048a0d4": 8,
+   "DAT_0048a138": 3
+  }
+ },
+ "scene_channel_scripts.c": {
+  "hdr": {
+   "winuser": 13
+  },
+  "shift": {
+   "DAT_0048a0d4": 8,
+   "DAT_0048a138": 3
+  }
+ },
+ "winmain_nav.c": {
+  "hdr": {
+   "winuser": 2
+  },
+  "pre": 1
+ },
+ "heap_resources.c": {
+  "hdr": {
+   "winuser": 2
+  },
+  "pre": 1
+ },
+ "render_nodes.c": {
+  "pre": 1
+ },
+ "messages_channel.c": {
+  "pre": 2
+ },
+ "trigger_overlay_actions.c": {
+  "pre": 2,
+  "shift": {
+   "DAT_0048a248": [
+    12,
+    65536
+   ]
+  }
+ },
+ "puppet_transitions.c": {
+  "pre": 2
+ },
+ "script_bindings.c": {
+  "pre": 6
+ },
+ "stage.c": {
+  "pre": 6
+ },
+ "interpreter.c": {
+  "early": [],
+  "late": [
+   "DAT_0048cbd4"
+  ],
+  "pre": 5,
+  "shift": {
+   "DAT_0048cd18": 3,
+   "DAT_0048cd0c": 11,
+   "DAT_0048a248": 7
+  }
+ },
+ "movie_player.c": {
+  "early": [],
+  "late": [
+   "DAT_0048cbd4"
+  ],
+  "pre": 5,
+  "shift": {
+   "DAT_0048cd18": 3,
+   "DAT_0048cd0c": 11,
+   "DAT_0048a248": 7
+  }
+ },
+ "track_sound_cmds.c": {
+  "hdr": {
+   "winuser": 2
+  }
+ },
+ "property_heap.c": {
+  "hdr": {
+   "winuser": 2
+  }
+ }
+}
