@@ -4438,6 +4438,57 @@ short __stdcall IsMouseStillDown(void)  /* 0x0041f040 */
 }
 
 
+#if DF_FIX_STRETCH_DISPLAY
+/* Where the scene sits in the main window when it is stretched to fill the client (DF_FIX_STRETCH_DISPLAY).
+ * on = 0 unless the window is the main game window and its client is larger than the viewport in both
+ * directions; then the viewport (gSceneViewport w x h) is centred at (left, top) in the client and
+ * scaled by cw / vw and ch / vh. */
+typedef struct {
+    int on;
+    int left, top;
+    int cw, ch;
+    int vw, vh;
+} DisplayStretch;
+
+static void GetDisplayStretch(HWND hwnd, DisplayStretch *s)  /* PORT-HELPER: DF_FIX_STRETCH_DISPLAY */
+{
+    RECT rc;
+
+    s->on = 0;
+    if (hwnd == NULL || (int)(intptr_t)hwnd != gMainWindow || !GetClientRect(hwnd, &rc))
+        return;
+    s->cw = rc.right;
+    s->ch = rc.bottom;
+    s->vw = gSceneViewport.w;
+    s->vh = gSceneViewport.h;
+    if (s->vw <= 0 || s->vh <= 0 || s->cw <= s->vw || s->ch <= s->vh)
+        return;
+    s->left = (s->cw - s->vw) / 2;
+    s->top  = (s->ch - s->vh) / 2;
+    s->on   = 1;
+}
+
+/* The display blit, stretched: returns 0 and does nothing when GetDisplayStretch says no stretch, so the
+ * caller falls through to its own BitBlt. Destination coordinates are window coordinates, as for BitBlt. */
+static int DisplayStretchBlt(HDC hdcDest, int x, int y, int cx, int cy, HDC hdcSrc, int x1, int y1)  /* PORT-HELPER: DF_FIX_STRETCH_DISPLAY */
+{
+    DisplayStretch s;
+    int X0, Y0, X1, Y1;
+
+    GetDisplayStretch(WindowFromDC(hdcDest), &s);
+    if (!s.on)
+        return 0;
+    X0 = (x - s.left) * s.cw / s.vw;
+    Y0 = (y - s.top) * s.ch / s.vh;
+    X1 = (x + cx - s.left) * s.cw / s.vw;
+    Y1 = (y + cy - s.top) * s.ch / s.vh;
+    SetStretchBltMode(hdcDest, COLORONCOLOR);
+    StretchBlt(hdcDest, X0, Y0, X1 - X0, Y1 - Y0, hdcSrc, x1, y1, cx, cy, SRCCOPY);
+    return 1;
+}
+#endif
+
+
 /* Translates the current Windows cursor position from screen space into
  * scene space, then writes the result into pOut as {pOut[0]=y, pOut[1]=x}.
  *
@@ -4470,6 +4521,18 @@ void __cdecl GetSceneCursorPos(int sceneOverride, short *pOut)  /* 0x0041f090 */
 
     GetCursorPos(&ptScreen);
     ScreenToClient((HWND)pScene[0], &ptScreen);
+#if DF_FIX_STRETCH_DISPLAY
+    {
+        /* Same undo as MapScreenPointToNode: the cursor is in the stretched display's client. */
+        DisplayStretch s;
+
+        GetDisplayStretch((HWND)pScene[0], &s);
+        if (s.on) {
+            ptScreen.x = s.left + ptScreen.x * s.vw / s.cw;
+            ptScreen.y = s.top + ptScreen.y * s.vh / s.ch;
+        }
+    }
+#endif
 
     pOut[1] = (short)pScene[0x16] + (short)ptScreen.x;
     pOut[0] = (short)pScene[0x17] + (short)ptScreen.y;
@@ -4895,6 +4958,18 @@ void __cdecl InvalidateSceneRect(short *pRect)  /* 0x0041f7e0 */
      * mov edx,[eax]). The port passed the object pointer itself as the HWND, so InvalidateRect
      * failed and nothing was invalidated (class 12, one indirection short). */
     hwnd = *(HWND *)gThePortDesc[0];
+#if DF_FIX_STRETCH_DISPLAY
+    {
+        /* A stretched display maps scene rects to other window rects, so repaint the whole window. */
+        DisplayStretch s;
+
+        GetDisplayStretch(hwnd, &s);
+        if (s.on) {
+            InvalidateRect(hwnd, NULL, FALSE);
+            return;
+        }
+    }
+#endif
     if (pRect[1] < pRect[3]) {
         if (pRect[0] < pRect[2]) {
             rc.left   = (int)pRect[1] - *(int *)((char *)gThePort + 0x50);
@@ -4923,6 +4998,18 @@ void __cdecl MapScreenPointToNode(NodeDesc *pNode, short *pPoint)  /* 0x0041f860
         DF_TRACE("mapToNode: in=(y=%d,x=%d) hwnd=%p s2c=%d -> client=(%ld,%ld) node[0x16]=%d node[0x17]=%d",
                  (int)pPoint[0], (int)pPoint[1], (void *)*(HWND *)pNodeObj, (int)ok,
                  pt.x, pt.y, (int)pNodeObj[0x16], (int)pNodeObj[0x17]);
+#if DF_FIX_STRETCH_DISPLAY
+        {
+            /* Undo DisplayStretchBlt: client point -> offset inside the centred viewport. */
+            DisplayStretch s;
+
+            GetDisplayStretch(*(HWND *)pNodeObj, &s);
+            if (s.on) {
+                pt.x = s.left + pt.x * s.vw / s.cw;
+                pt.y = s.top + pt.y * s.vh / s.ch;
+            }
+        }
+#endif
         pPoint[1] = (short)pNodeObj[0x16] + (short)pt.x;
         pPoint[0] = (short)pNodeObj[0x17] + (short)pt.y;
         DF_TRACE("mapToNode: out=(y=%d,x=%d) nodeType=%d", (int)pPoint[0], (int)pPoint[1], (int)pNode->nodeType);
@@ -5072,6 +5159,16 @@ void __cdecl QdCopyBits(int *pSrcBits, int *pDstBits, short *pSrcRect, short *pD
             RealizePalette(*(HDC *)(*pSrcBits + 4));
             pNode = *pSrcBits;
             pDstNode = *pDstBits;
+#if DF_FIX_STRETCH_DISPLAY
+            if (*(int *)pDstNode != gMainWindow
+                || !DisplayStretchBlt(*(HDC *)(pDstNode + 4),
+                                      (int)pDstRect[1] - *(int *)(pDstNode + 0x58),
+                                      (int)pDstRect[0] - *(int *)(pDstNode + 0x5c),
+                                      cx, cy,
+                                      *(HDC *)(pNode + 4),
+                                      (int)pSrcRect[1] - *(int *)(pNode + 0x58),
+                                      (int)pSrcRect[0] - *(int *)(pNode + 0x5c)))
+#endif
             BitBlt(*(HDC *)(pDstNode + 4),
                    (int)pDstRect[1] - *(int *)(pDstNode + 0x58),
                    (int)pDstRect[0] - *(int *)(pDstNode + 0x5c),
@@ -5106,6 +5203,10 @@ void __cdecl RenderSceneDisplayBuffer(HDC hdcDest, int x, int y, int cx, int cy,
   else {
     ((PFN_SetDIBColorTable)(UINT_PTR)gSetDIBColorTableProc)(hdcSrc, 0, 0x100, gDibColorTable);
   }
+#if DF_FIX_STRETCH_DISPLAY
+  if (DisplayStretchBlt(hdcDest, x, y, cx, cy, hdcSrc, x1, y1))
+    return;
+#endif
   if (gIsWinGBackend != 0) {
     ((PFN_WinGBitBlt)(UINT_PTR)gWinGBitBltProc)(hdcDest, x, y, cx, cy, hdcSrc, x1, y1);
     return;
@@ -5479,6 +5580,24 @@ void __cdecl QdEraseRect(short *pRect)  /* 0x004200d0 */
 
 
 
+#if DF_FIX_STRETCH_DISPLAY
+/* Maps a window rect of the main window the way DisplayStretchBlt maps a blit, so the highlight
+ * helpers draw on the stretched scene (DF_FIX_STRETCH_DISPLAY). No change unless GetDisplayStretch is on. */
+static void StretchWindowRectForDisplay(HWND hwnd, RECT *rc)  /* PORT-HELPER: DF_FIX_STRETCH_DISPLAY */
+{
+    DisplayStretch s;
+
+    GetDisplayStretch(hwnd, &s);
+    if (!s.on)
+        return;
+    rc->left   = (rc->left   - s.left) * s.cw / s.vw;
+    rc->top    = (rc->top    - s.top)  * s.ch / s.vh;
+    rc->right  = (rc->right  - s.left) * s.cw / s.vw;
+    rc->bottom = (rc->bottom - s.top)  * s.ch / s.vh;
+}
+#endif
+
+
 /* XOR-inverts a scene-space rect on the back-buffer DC, producing a
  * visual highlight effect. Only acts when gIsAppActive is non-zero.
  *
@@ -5497,6 +5616,9 @@ void __cdecl QdInvertRect(short *pRect)  /* 0x00420170 */
     rc.right  = (int)pRect[3] - ((int *)gThePort)[0x14];
     rc.top    = (int)pRect[0] - ((int *)gThePort)[0x15];
     rc.bottom = (int)pRect[2] - ((int *)gThePort)[0x15];
+#if DF_FIX_STRETCH_DISPLAY
+    StretchWindowRectForDisplay(WindowFromDC((HDC)((int *)gThePort)[0]), &rc);
+#endif
     InvertRect((HDC)((int *)gThePort)[0], &rc);
 }
 
@@ -5525,6 +5647,14 @@ void __cdecl QdFrameRect(short *pRect) /* 0x004201f0 */
               ((int)*pRect - gThePort[0x15]) + half,
               ((int)pRect[3] - half) - gThePort[0x14],
               ((int)pRect[2] - half) - gThePort[0x15]);
+#if DF_FIX_STRETCH_DISPLAY
+    RECT    rc;
+    rc.left   = ((int)pRect[1] - gThePort[0x14]) + half;
+    rc.top    = ((int)*pRect - gThePort[0x15]) + half;
+    rc.right  = ((int)pRect[3] - half) - gThePort[0x14];
+    rc.bottom = ((int)pRect[2] - half) - gThePort[0x15];
+    StretchWindowRectForDisplay(WindowFromDC(hdc), &rc);
+#endif
     SelectObject(hdc, prev);
 }
 
@@ -5561,6 +5691,9 @@ void __cdecl QdPaintRect(short *pRect) /* 0x004202c0 */
     fillRect.top    = (int)*pRect   - gThePort[0x15];
     fillRect.right  = (int)pRect[3] - gThePort[0x14];
     fillRect.bottom = (int)pRect[2] - gThePort[0x15];
+#if DF_FIX_STRETCH_DISPLAY
+    StretchWindowRectForDisplay(WindowFromDC(hdc), &fillRect);
+#endif
     h = (HGDIOBJ)(UINT_PTR)gThePort[2];
     if (h != (HGDIOBJ)NULL) {
         UnrealizeObject(h);
